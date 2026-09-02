@@ -1,0 +1,144 @@
+[
+  {
+    "id": "choisir-essence",
+    "slug": { "fr": "hevea-acacia-bambou-comment-choisir", "en": "rubberwood-acacia-bamboo-how-to-choose" },
+    "date": "2026-09-02",
+    "image": "/assets/img/products/panneau-acacia.jpg",
+    "title": {
+      "fr": "Hévéa, acacia ou bambou : comment choisir",
+      "en": "Rubberwood, acacia or bamboo: how to choose"
+    },
+    "excerpt": {
+      "fr": "Trois matières, trois logiques de prix et trois rendus très différents. Un guide court pour arbitrer avant de demander une cotation.",
+      "en": "Three materials, three price logics and three very different looks. A short guide to help you decide before asking for a quote."
+    },
+    "body": {
+      "fr": [
+        "<p>C'est la première question que l'on nous pose, et la réponse dépend moins du budget que de ce que vous voulez montrer. Voici comment nous raisonnons.</p>",
+        "<h2>L'hévéa : le choix neutre</h2>",
+        "<p>Blond pâle, veinage discret, teinte homogène. C'est la matière qui se fait oublier — celle qu'on choisit quand le bois doit être un support et non le sujet. C'est aussi la plus stable de la gamme et la plus simple à finir : elle accepte aussi bien un vernis incolore qu'une teinte foncée.</p>",
+        "<p>Son origine explique son prix : l'hévéa est l'arbre à caoutchouc, abattu en fin de vie productive une fois la récolte de latex terminée. La ressource est un sous-produit d'une plantation existante.</p>",
+        "<h2>L'acacia : le choix contrasté</h2>",
+        "<p>À l'opposé. L'acacia mangium joue sur le contraste entre un bois de cœur brun profond et un aubier clair, et en qualité BC ou ABCD ce contraste est assumé, nœuds compris. Deux panneaux du même lot ne se ressemblent pas.</p>",
+        "<p>C'est un parti pris esthétique fort. Il fonctionne très bien en mobilier, en agencement de restaurant ou de commerce, partout où le bois doit se voir. Il fonctionne mal quand le client final attend un rendu uniforme : dans ce cas, mieux vaut l'hévéa ou une sélection plus serrée.</p>",
+        "<p>Bonus technique : l'acacia est nettement plus dur que l'hévéa, ce qui en fait un meilleur candidat pour un sol de passage.</p>",
+        "<h2>Le bambou : le choix technique</h2>",
+        "<p>Le bambou n'est pas un bois mais une graminée, et il se décline en deux familles très différentes.</p>",
+        "<p>Le <strong>bambou latté</strong> (horizontal ou vertical, naturel ou caramel) est fait de lattes collées. Le dessin est régulier, très reconnaissable, et la matière reste facile à usiner.</p>",
+        "<p>Le <strong>bambou thermodensifié</strong> (strand woven) est obtenu en éclatant les fibres puis en les compressant à très haute pression. On obtient un matériau beaucoup plus dense, au dessin fibreux et à la teinte sombre — et le seul de notre gamme que nous recommandons en extérieur, en terrasse comme en bardage.</p>",
+        "<h2>En résumé</h2>",
+        "<ul><li><strong>Rendu neutre, finition libre, budget maîtrisé</strong> → hévéa</li><li><strong>Caractère, contraste, dureté</strong> → acacia</li><li><strong>Argument environnemental, dessin graphique</strong> → bambou latté</li><li><strong>Extérieur, fort trafic, teinte sombre</strong> → bambou thermodensifié</li></ul>",
+        "<p>Dans le doute, demandez-nous des échantillons : sur ces matières, une photo ne remplace jamais une main sur le panneau.</p>"
+      ],
+      "en": [
+        "<p>This is the first question we get, and the answer depends less on budget than on what you want the wood to say. Here is how we think about it.</p>",
+        "<h2>Rubberwood: the neutral choice</h2>",
+        "<p>Pale blond, discreet grain, even colour. This is the material that disappears — the one you pick when the wood is a substrate, not the subject. It is also the most stable in the range and the easiest to finish: it takes a clear varnish as happily as a dark stain.</p>",
+        "<p>Its origin explains its price: rubberwood comes from the rubber tree, felled at the end of its productive life once latex tapping is over. The resource is a by-product of an existing plantation.</p>",
+        "<h2>Acacia: the contrasted choice</h2>",
+        "<p>The opposite. Acacia mangium plays on the contrast between deep brown heartwood and pale sapwood, and in BC or ABCD grade that contrast is fully embraced, knots included. No two panels from the same batch look alike.</p>",
+        "<p>It is a strong aesthetic statement. It works beautifully in furniture, restaurant and retail fit-out, anywhere the wood is meant to be seen. It works badly when the end client expects a uniform look: in that case, go for rubberwood or a tighter selection.</p>",
+        "<p>Technical bonus: acacia is markedly harder than rubberwood, which makes it a better candidate for a circulation floor.</p>",
+        "<h2>Bamboo: the technical choice</h2>",
+        "<p>Bamboo is not a wood but a grass, and it comes in two very different families.</p>",
+        "<p><strong>Laminated bamboo</strong> (horizontal or vertical, natural or caramel) is made of glued strips. The pattern is regular and instantly recognisable, and the material stays easy to machine.</p>",
+        "<p><strong>Strand woven bamboo</strong> is made by shredding the fibres then compressing them under very high pressure. The result is a far denser material with a fibrous grain and a dark tone — and the only one in our range we recommend outdoors, for decking as well as cladding.</p>",
+        "<h2>In short</h2>",
+        "<ul><li><strong>Neutral look, free choice of finish, controlled budget</strong> → rubberwood</li><li><strong>Character, contrast, hardness</strong> → acacia</li><li><strong>Environmental argument, graphic pattern</strong> → laminated bamboo</li><li><strong>Exterior, heavy traffic, dark tone</strong> → strand woven bamboo</li></ul>",
+        "<p>When in doubt, ask us for samples: with these materials, a photograph never replaces a hand on the panel.</p>"
+      ]
+    }
+  },
+  {
+    "id": "controle-avant-chargement",
+    "slug": { "fr": "pourquoi-controler-avant-le-chargement", "en": "why-inspect-before-loading" },
+    "date": "2026-09-02",
+    "image": "/assets/img/service-qualite.jpg",
+    "title": {
+      "fr": "Pourquoi tout se joue avant le chargement",
+      "en": "Why everything is decided before loading"
+    },
+    "excerpt": {
+      "fr": "Un litige qualité découvert à l'arrivée en Europe est presque toujours perdu d'avance. Voici ce que nous vérifions en usine, et pourquoi.",
+      "en": "A quality dispute discovered on arrival in Europe is almost always lost before it starts. Here is what we check in the mill, and why."
+    },
+    "body": {
+      "fr": [
+        "<p>Imaginons le scénario que tout importateur connaît. Le conteneur arrive, vous ouvrez les portes, et l'épaisseur n'est pas la bonne. Ou le taux d'humidité est trop élevé. Ou le tri visuel ne correspond pas à l'échantillon validé.</p>",
+        "<p>À ce moment précis, votre position de négociation est déjà très faible : la marchandise est payée, elle est chez vous, et l'usine est à 10 000 km. Vous avez le choix entre une remise partielle après plusieurs semaines de discussion, ou une marchandise que vous ne pouvez pas vendre au prix prévu.</p>",
+        "<h2>Le seul moment utile</h2>",
+        "<p>Le seul moment où un problème qualité se règle sans vous coûter d'argent, c'est avant que le conteneur ne soit scellé. À ce stade, l'usine peut retrier, reproduire, ou décaler le départ. Après, chaque solution passe par un transport supplémentaire.</p>",
+        "<p>C'est pour cette raison que le contrôle avant chargement est inclus dans nos prix et jamais proposé en option.</p>",
+        "<h2>Ce que nous contrôlons</h2>",
+        "<ul>",
+        "<li><strong>Les dimensions réelles</strong>, mesurées sur un échantillonnage du lot — pas celles du bon de commande.</li>",
+        "<li><strong>Le taux d'humidité</strong>, au bon moment : un panneau chargé trop humide travaillera pendant le transit et arrivera déformé.</li>",
+        "<li><strong>La qualité du collage</strong> sur les lamellés-collés : c'est là que se jouent les délaminations à réception.</li>",
+        "<li><strong>Le tri visuel</strong>, comparé à l'échantillon que vous avez validé — nœuds, aubier, variations de teinte.</li>",
+        "<li><strong>Le conditionnement et le marquage</strong>, y compris le calage dans le conteneur : beaucoup de casse vient de là et non de la production.</li>",
+        "</ul>",
+        "<h2>Ce que vous recevez</h2>",
+        "<p>Un rapport photo détaillé, avant le départ. Vous validez, ou vous ne validez pas. Dans le second cas, c'est notre problème et celui de l'usine — pas le vôtre.</p>"
+      ],
+      "en": [
+        "<p>Picture the scenario every importer knows. The container arrives, you open the doors, and the thickness is wrong. Or the moisture content is too high. Or the visual sorting does not match the approved sample.</p>",
+        "<p>At that precise moment your negotiating position is already very weak: the goods are paid for, they are at your place, and the mill is 10,000 km away. Your choice is between a partial credit after weeks of discussion, or goods you cannot sell at the planned price.</p>",
+        "<h2>The only useful moment</h2>",
+        "<p>The only moment when a quality problem can be solved without costing you money is before the container is sealed. At that stage the mill can re-sort, re-produce, or push back the departure. Afterwards, every solution involves another shipment.</p>",
+        "<p>That is why pre-shipment inspection is included in our prices and never offered as an option.</p>",
+        "<h2>What we check</h2>",
+        "<ul>",
+        "<li><strong>Actual dimensions</strong>, measured on a sample of the batch — not the ones on the purchase order.</li>",
+        "<li><strong>Moisture content</strong>, at the right moment: a panel loaded too wet will move in transit and arrive distorted.</li>",
+        "<li><strong>Glue-line quality</strong> on edge-glued panels: that is where delamination on arrival is decided.</li>",
+        "<li><strong>Visual sorting</strong>, against the sample you approved — knots, sapwood, colour variation.</li>",
+        "<li><strong>Packing and marking</strong>, including bracing inside the container: a lot of damage originates there rather than in production.</li>",
+        "</ul>",
+        "<h2>What you receive</h2>",
+        "<p>A detailed photo report, before departure. You approve, or you do not. In the second case it is our problem and the mill's — not yours.</p>"
+      ]
+    }
+  },
+  {
+    "id": "incoterm-dap",
+    "slug": { "fr": "comprendre-l-incoterm-dap", "en": "understanding-the-dap-incoterm" },
+    "date": "2026-09-02",
+    "image": "/assets/img/service-livraison.jpg",
+    "title": {
+      "fr": "Comprendre l'Incoterm DAP",
+      "en": "Understanding the DAP Incoterm"
+    },
+    "excerpt": {
+      "fr": "DAP, FOB, CIF : ce que chaque sigle change vraiment pour vous, et pourquoi nous cotons systématiquement rendu entrepôt.",
+      "en": "DAP, FOB, CIF: what each acronym really changes for you, and why we always quote delivered to your warehouse."
+    },
+    "body": {
+      "fr": [
+        "<p>Comparer deux offres d'import sans regarder l'Incoterm n'a aucun sens : selon le sigle, le même prix peut cacher plusieurs centaines d'euros par conteneur de frais qui restent à votre charge.</p>",
+        "<h2>Les trois que vous croiserez</h2>",
+        "<p><strong>FOB</strong> (Free On Board) : le vendeur livre la marchandise à bord du navire au port de départ. Tout ce qui suit — fret maritime, assurance, déchargement, douane, transport terrestre — est pour vous.</p>",
+        "<p><strong>CIF</strong> (Cost, Insurance and Freight) : le vendeur paie le fret et l'assurance jusqu'au port de destination. Mais le déchargement, les frais portuaires, le dédouanement et le camion final restent à votre charge — et ce sont rarement des petites lignes.</p>",
+        "<p><strong>DAP</strong> (Delivered At Place) : le vendeur livre la marchandise à l'adresse convenue, prête à être déchargée. Il supporte le transport et les risques jusque-là. Seuls les droits et taxes à l'import restent à la charge de l'acheteur.</p>",
+        "<h2>Pourquoi nous cotons en DAP</h2>",
+        "<p>Parce qu'un prix DAP est directement comparable à un prix de fournisseur européen. Vous n'avez pas à estimer un fret, à provisionner des frais portuaires ni à gérer un transitaire : le chiffre que nous vous donnons est celui de la palette déchargée chez vous.</p>",
+        "<p>Cela nous engage aussi davantage. En DAP, un retard de transport ou un problème de dédouanement est notre affaire, pas la vôtre.</p>",
+        "<h2>Le point à ne pas oublier</h2>",
+        "<p>En DAP, les <strong>droits de douane et la TVA à l'import restent à votre charge</strong>. C'est la seule ligne à ajouter à notre prix pour obtenir votre coût de revient réel. Nous vous indiquons les codes douaniers applicables pour que vous puissiez la calculer avant de commander.</p>",
+        "<p><em>Les Incoterms cités sont ceux de la publication Incoterms® 2020 de la Chambre de commerce internationale.</em></p>"
+      ],
+      "en": [
+        "<p>Comparing two import offers without looking at the Incoterm makes no sense: depending on the acronym, the same price can hide several hundred euros per container of costs that remain yours.</p>",
+        "<h2>The three you will meet</h2>",
+        "<p><strong>FOB</strong> (Free On Board): the seller delivers the goods on board the vessel at the port of departure. Everything after that — ocean freight, insurance, unloading, customs, road haulage — is yours.</p>",
+        "<p><strong>CIF</strong> (Cost, Insurance and Freight): the seller pays freight and insurance to the destination port. But unloading, port charges, customs clearance and the final truck remain yours — and those are rarely small lines.</p>",
+        "<p><strong>DAP</strong> (Delivered At Place): the seller delivers the goods at the agreed address, ready for unloading. They carry transport and risk up to that point. Only import duties and taxes remain with the buyer.</p>",
+        "<h2>Why we quote DAP</h2>",
+        "<p>Because a DAP price is directly comparable to a European supplier's price. You do not have to estimate freight, budget for port charges or manage a forwarder: the figure we give you is the pallet unloaded at your place.</p>",
+        "<p>It also commits us further. Under DAP, a transport delay or a customs problem is our business, not yours.</p>",
+        "<h2>The point not to forget</h2>",
+        "<p>Under DAP, <strong>customs duties and import VAT remain yours</strong>. That is the only line to add to our price to get your true landed cost. We give you the applicable customs codes so you can work it out before ordering.</p>",
+        "<p><em>The Incoterms referred to are those of the International Chamber of Commerce Incoterms® 2020 publication.</em></p>"
+      ]
+    }
+  }
+]

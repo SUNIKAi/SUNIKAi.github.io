@@ -1,0 +1,387 @@
+[
+  {
+    "id": "panneau-hevea",
+    "slug": { "fr": "panneaux-hevea", "en": "rubberwood-panels" },
+    "image": "/assets/img/products/panneau-hevea.jpg",
+    "category": { "fr": "Panneaux", "en": "Panels" },
+    "name": { "fr": "Panneau Hévéa", "en": "Rubberwood Panel" },
+    "subtitle": { "fr": "Lamellé-collé · Qualité AB", "en": "Edge-glued · AB grade" },
+    "specs": {
+      "species": { "fr": "Hévéa (Hevea brasiliensis)", "en": "Rubberwood (Hevea brasiliensis)" },
+      "quality": { "fr": "AB", "en": "AB" },
+      "structure": { "fr": "Lamellé-collé, lamelles aboutées ou pleine longueur", "en": "Edge-glued, finger-jointed or full-length laths" },
+      "finish": { "fr": "Brut poncé, prêt à finir", "en": "Sanded, ready to finish" }
+    },
+    "dims": { "length": "2400 · 2800 · 3100", "width": "650 · 1220", "thickness": "18 · 20 · 25 · 30 · 38 · 40" },
+    "intro": {
+      "fr": "Le panneau lamellé-collé le plus polyvalent de notre gamme : teinte claire et homogène, bonne stabilité dimensionnelle, prix compétitif au mètre carré.",
+      "en": "The most versatile edge-glued panel in our range: light, even colour, good dimensional stability and a competitive price per square metre."
+    },
+    "body": {
+      "fr": [
+        "L'hévéa est l'arbre à caoutchouc. Le bois est récolté en fin de vie productive de la plantation, une fois la récolte de latex terminée : c'est une ressource de plantation, pas de forêt primaire, et c'est ce qui explique sa disponibilité et son prix.",
+        "En qualité AB, une face est sélectionnée pour rester visible : couleur régulière, nœuds sains et peu nombreux. La face arrière tolère davantage de variations. Le panneau arrive poncé, prêt à recevoir vernis, huile ou laque.",
+        "Nous travaillons plusieurs épaisseurs sur le même chargement, ce qui permet de couvrir plans de travail, tablettes et structures d'agencement avec une seule commande."
+      ],
+      "en": [
+        "Rubberwood comes from the rubber tree. The timber is harvested at the end of the plantation's productive life, once latex tapping is over: it is a plantation resource, not primary forest, which is exactly why it is available and affordable.",
+        "In AB grade, one face is selected to stay visible: even colour, sound and infrequent knots. The back face allows more variation. Panels are shipped sanded, ready for varnish, oil or lacquer.",
+        "We can load several thicknesses in the same container, so worktops, shelving and shopfitting structures can be covered by a single order."
+      ]
+    },
+    "uses": {
+      "fr": ["Plans de travail et tablettes", "Agencement et mobilier", "Marches et contremarches", "Panneaux d'habillage intérieur"],
+      "en": ["Worktops and shelving", "Shopfitting and furniture", "Stair treads and risers", "Interior lining panels"]
+    }
+  },
+  {
+    "id": "panneau-acacia",
+    "slug": { "fr": "panneaux-acacia", "en": "acacia-panels" },
+    "image": "/assets/img/products/panneau-acacia.jpg",
+    "category": { "fr": "Panneaux", "en": "Panels" },
+    "name": { "fr": "Panneau Acacia", "en": "Acacia Panel" },
+    "subtitle": { "fr": "Lamellé-collé · Qualité BC", "en": "Edge-glued · BC grade" },
+    "specs": {
+      "species": { "fr": "Acacia (Acacia mangium)", "en": "Acacia (Acacia mangium)" },
+      "quality": { "fr": "BC", "en": "BC" },
+      "structure": { "fr": "Lamellé-collé, lamelles aboutées", "en": "Edge-glued, finger-jointed laths" },
+      "finish": { "fr": "Brut poncé, prêt à finir", "en": "Sanded, ready to finish" }
+    },
+    "dims": { "length": "2400 · 2800 · 3100", "width": "650 · 1220", "thickness": "18 · 20 · 25 · 30 · 38 · 40" },
+    "intro": {
+      "fr": "Plus foncé et plus dur que l'hévéa, l'acacia apporte du caractère : contrastes de teinte marqués, veinage vivant, très bon rapport dureté / prix.",
+      "en": "Darker and harder than rubberwood, acacia brings character: strong colour contrast, lively grain and an excellent hardness-to-price ratio."
+    },
+    "body": {
+      "fr": [
+        "L'acacia mangium est cultivé en plantation en Asie du Sud-Est. Son bois de cœur va du miel au brun chocolat, avec un aubier plus clair : c'est ce contraste, assumé, qui fait l'identité du produit.",
+        "La qualité BC accepte les nœuds, les variations de teinte et l'aubier. Ce n'est pas un défaut mais un parti pris esthétique — et le meilleur moyen d'obtenir un panneau bois massif à un prix qui reste tenable sur de gros volumes.",
+        "Pour un rendu plus uniforme, une sélection plus serrée est possible : dites-nous le rendu visé et nous cotons la qualité correspondante."
+      ],
+      "en": [
+        "Acacia mangium is plantation-grown in South-East Asia. Its heartwood ranges from honey to chocolate brown, with paler sapwood: that deliberate contrast is the product's signature.",
+        "BC grade accepts knots, colour variation and sapwood. This is a design choice rather than a defect — and the best way to get a solid wood panel at a price that still works on large volumes.",
+        "For a more uniform look, a tighter selection is possible: tell us the finish you are aiming for and we will quote the matching grade."
+      ]
+    },
+    "uses": {
+      "fr": ["Mobilier et agencement", "Plans de travail décoratifs", "Tablettes et étagères", "Panneaux muraux"],
+      "en": ["Furniture and shopfitting", "Decorative worktops", "Shelving", "Wall panels"]
+    }
+  },
+  {
+    "id": "panneau-bambou-naturel",
+    "slug": { "fr": "panneaux-bambou-naturel", "en": "natural-bamboo-panels" },
+    "image": "/assets/img/products/panneau-bambou-naturel.jpg",
+    "category": { "fr": "Panneaux", "en": "Panels" },
+    "name": { "fr": "Panneau Bambou Naturel", "en": "Natural Bamboo Panel" },
+    "subtitle": { "fr": "Horizontal ou vertical · Teinte naturelle", "en": "Horizontal or vertical · Natural tone" },
+    "specs": {
+      "species": { "fr": "Bambou Moso", "en": "Moso bamboo" },
+      "quality": { "fr": "Premium", "en": "Premium" },
+      "structure": { "fr": "Lattes collées, pressage horizontal ou vertical, 3 plis", "en": "Glued strips, horizontal or vertical press, 3-ply" },
+      "finish": { "fr": "Brut poncé, prêt à finir", "en": "Sanded, ready to finish" }
+    },
+    "dims": { "length": "2440", "width": "1220", "thickness": "20 · 30 · 40" },
+    "intro": {
+      "fr": "Le bambou dans sa teinte d'origine, blond clair. Deux dessins possibles selon le pressage : larges lattes visibles en horizontal, fines rayures régulières en vertical.",
+      "en": "Bamboo in its original pale blond tone. Two possible patterns depending on the press: wide visible strips in horizontal, fine regular stripes in vertical."
+    },
+    "body": {
+      "fr": [
+        "Le bambou Moso n'est pas un arbre mais une graminée : il atteint sa taille adulte en quelques années et repousse depuis la souche après coupe. C'est ce cycle court qui en fait un argument fort auprès des donneurs d'ordre sensibles à l'empreinte matière.",
+        "Le panneau horizontal laisse voir les nœuds du bambou sur toute la largeur de la latte — dessin marqué, très identifiable. Le panneau vertical, obtenu en pressant les lattes sur chant, donne un rayage fin et régulier, plus discret.",
+        "Le collage 3 plis croisés assure la stabilité dans les grandes épaisseurs et permet l'usinage sur chant, notamment pour les plans de travail."
+      ],
+      "en": [
+        "Moso bamboo is not a tree but a grass: it reaches full size in a few years and regrows from the stump after cutting. That short cycle is a strong argument with clients who watch their material footprint.",
+        "The horizontal panel shows the bamboo nodes across the full width of each strip — a bold, instantly recognisable pattern. The vertical panel, pressed on edge, gives a fine, regular stripe that reads much quieter.",
+        "The cross-laminated 3-ply construction keeps thick panels stable and allows edge machining, which matters for worktops."
+      ]
+    },
+    "uses": {
+      "fr": ["Plans de travail", "Mobilier et agencement", "Habillages muraux", "Marches d'escalier"],
+      "en": ["Worktops", "Furniture and shopfitting", "Wall linings", "Stair treads"]
+    }
+  },
+  {
+    "id": "panneau-bambou-caramel",
+    "slug": { "fr": "panneaux-bambou-caramel", "en": "caramel-bamboo-panels" },
+    "image": "/assets/img/products/panneau-bambou-caramel.jpg",
+    "category": { "fr": "Panneaux", "en": "Panels" },
+    "name": { "fr": "Panneau Bambou Caramel", "en": "Caramel Bamboo Panel" },
+    "subtitle": { "fr": "Horizontal ou vertical · Teinte caramel", "en": "Horizontal or vertical · Caramel tone" },
+    "specs": {
+      "species": { "fr": "Bambou Moso", "en": "Moso bamboo" },
+      "quality": { "fr": "Premium", "en": "Premium" },
+      "structure": { "fr": "Lattes collées, pressage horizontal ou vertical, 3 plis", "en": "Glued strips, horizontal or vertical press, 3-ply" },
+      "finish": { "fr": "Brut poncé, prêt à finir", "en": "Sanded, ready to finish" }
+    },
+    "dims": { "length": "2440", "width": "1220", "thickness": "20 · 30 · 40" },
+    "intro": {
+      "fr": "Même panneau que le bambou naturel, mais passé à l'étuve : la chaleur caramélise les sucres du bambou et lui donne une teinte miel foncé, dans la masse.",
+      "en": "The same panel as natural bamboo, but steam-treated: heat caramelises the sugars in the bamboo and gives a deep honey tone that runs right through the material."
+    },
+    "body": {
+      "fr": [
+        "La teinte caramel n'est pas une teinture de surface : elle traverse la latte. Un ponçage ou un chant usiné garde donc la même couleur, ce qui simplifie beaucoup la mise en œuvre.",
+        "Le traitement thermique s'accompagne d'une légère baisse de dureté par rapport au bambou naturel — sans conséquence en agencement et mobilier, à prendre en compte sur un sol très sollicité.",
+        "Comme pour le naturel, les deux dessins sont disponibles : horizontal pour un rendu marqué, vertical pour un rayage fin."
+      ],
+      "en": [
+        "The caramel tone is not a surface stain: it goes right through the strip. Sanding or machining an edge keeps the same colour, which makes installation much simpler.",
+        "Heat treatment comes with a slight drop in hardness compared with natural bamboo — irrelevant for shopfitting and furniture, worth factoring in on a heavily used floor.",
+        "As with the natural version, both patterns are available: horizontal for a bold look, vertical for a fine stripe."
+      ]
+    },
+    "uses": {
+      "fr": ["Plans de travail", "Mobilier et agencement", "Habillages muraux", "Comptoirs et banques d'accueil"],
+      "en": ["Worktops", "Furniture and shopfitting", "Wall linings", "Counters and reception desks"]
+    }
+  },
+  {
+    "id": "panneau-bambou-noir",
+    "slug": { "fr": "panneaux-bambou-thermodensifie-noir", "en": "black-strand-woven-bamboo-panels" },
+    "image": "/assets/img/products/panneau-bambou-noir.jpg",
+    "category": { "fr": "Panneaux", "en": "Panels" },
+    "name": { "fr": "Panneau Bambou Thermodensifié Noir", "en": "Black Strand Woven Bamboo Panel" },
+    "subtitle": { "fr": "Thermodensifié · Teinte noire", "en": "Strand woven · Black tone" },
+    "specs": {
+      "species": { "fr": "Bambou Moso", "en": "Moso bamboo" },
+      "quality": { "fr": "Premium", "en": "Premium" },
+      "structure": { "fr": "Fibres éclatées, encollées et compressées à haute pression", "en": "Shredded fibres, resin-bonded and compressed under high pressure" },
+      "finish": { "fr": "Brut poncé, prêt à finir", "en": "Sanded, ready to finish" }
+    },
+    "dims": { "length": "2440", "width": "1220", "thickness": "20 · 30 · 40" },
+    "intro": {
+      "fr": "Le haut de gamme de la famille bambou : les fibres sont éclatées puis compressées à très haute pression. On obtient un matériau nettement plus dense, à la teinte sombre et au dessin fibreux.",
+      "en": "The top of the bamboo family: fibres are shredded then compressed under very high pressure. The result is a markedly denser material with a dark tone and a fibrous grain."
+    },
+    "body": {
+      "fr": [
+        "Le thermodensifié (strand woven) ne ressemble plus à du bambou latté : le dessin devient fibreux, presque minéral, avec des reflets sombres. C'est le produit qu'on choisit quand on veut un noir profond en bois massif plutôt qu'un stratifié.",
+        "La densification apporte une dureté de surface très supérieure à celle du bambou latté classique, ce qui ouvre les usages à fort trafic.",
+        "Attention à l'usinage : la densité élevée use les outils plus vite. Prévoyez des outils carbure et des passes plus légères."
+      ],
+      "en": [
+        "Strand woven bamboo no longer looks like laminated bamboo: the grain becomes fibrous, almost mineral, with dark highlights. This is the product to pick when you want a deep black in solid wood rather than a laminate.",
+        "Densification gives a surface hardness far above standard laminated bamboo, which opens up high-traffic applications.",
+        "One machining note: the high density wears tooling faster. Plan for carbide tooling and lighter passes."
+      ]
+    },
+    "uses": {
+      "fr": ["Plans de travail haut de gamme", "Comptoirs et agencement commercial", "Marches d'escalier", "Habillages muraux sombres"],
+      "en": ["Premium worktops", "Counters and retail fit-out", "Stair treads", "Dark wall linings"]
+    }
+  },
+  {
+    "id": "parquet-hevea",
+    "slug": { "fr": "parquet-hevea", "en": "rubberwood-flooring" },
+    "image": "/assets/img/products/parquet-hevea.jpg",
+    "category": { "fr": "Parquets", "en": "Flooring" },
+    "name": { "fr": "Parquet Hévéa", "en": "Rubberwood Flooring" },
+    "subtitle": { "fr": "Qualité AB · 2 ou 4 frises · Naturel, Whitewash, Oak", "en": "AB grade · 2 or 4 strips · Natural, Whitewash, Oak" },
+    "specs": {
+      "species": { "fr": "Hévéa (Hevea brasiliensis)", "en": "Rubberwood (Hevea brasiliensis)" },
+      "quality": { "fr": "AB", "en": "AB" },
+      "structure": { "fr": "Massif, 2 frises ou 4 frises", "en": "Solid, 2-strip or 4-strip" },
+      "finish": { "fr": "Naturel · Whitewash · Oak", "en": "Natural · Whitewash · Oak" }
+    },
+    "dims": { "length": "1250 · 1850", "width": "135 · 160", "thickness": "15 · 16 · 18" },
+    "intro": {
+      "fr": "Un parquet clair et calme, décliné en trois finitions. Le format 2 frises donne un rendu plus large et plus contemporain, le 4 frises un dessin plus fin et plus régulier.",
+      "en": "A light, quiet floor available in three finishes. The 2-strip format reads wider and more contemporary; the 4-strip gives a finer, more regular pattern."
+    },
+    "body": {
+      "fr": [
+        "La finition Naturel conserve la teinte blond pâle de l'hévéa. Le Whitewash blanchit et matifie la surface, idéal pour les intérieurs clairs. La finition Oak réchauffe le bois vers un ton chêne doré.",
+        "Trois épaisseurs sont disponibles selon la pose visée : les épaisseurs les plus faibles pour une pose collée sur chape, les plus fortes quand il faut de la marge de ponçage ou une pose sur lambourdes.",
+        "Précisez la surface totale et le type de pose au moment de la demande : cela conditionne l'épaisseur, le format et la quantité de chutes à prévoir."
+      ],
+      "en": [
+        "The Natural finish keeps rubberwood's pale blond tone. Whitewash lightens and mattes the surface, ideal for bright interiors. Oak warms the wood towards a golden oak tone.",
+        "Three thicknesses are available depending on the installation: thinner boards for glue-down on screed, thicker ones when you need sanding allowance or a joist installation.",
+        "Give us the total area and the installation method with your enquiry: they drive the thickness, the format and the offcut allowance."
+      ]
+    },
+    "uses": {
+      "fr": ["Sols résidentiels", "Chambres d'hôtel", "Bureaux", "Locaux tertiaires à trafic modéré"],
+      "en": ["Residential floors", "Hotel rooms", "Offices", "Moderate-traffic commercial spaces"]
+    }
+  },
+  {
+    "id": "parquet-acacia",
+    "slug": { "fr": "parquet-acacia", "en": "acacia-flooring" },
+    "image": "/assets/img/products/parquet-acacia.jpg",
+    "category": { "fr": "Parquets", "en": "Flooring" },
+    "name": { "fr": "Parquet Acacia", "en": "Acacia Flooring" },
+    "subtitle": { "fr": "Qualité ABCD · 4 frises · Naturel", "en": "ABCD grade · 4-strip · Natural" },
+    "specs": {
+      "species": { "fr": "Acacia (Acacia mangium)", "en": "Acacia (Acacia mangium)" },
+      "quality": { "fr": "ABCD", "en": "ABCD" },
+      "structure": { "fr": "Massif, 4 frises", "en": "Solid, 4-strip" },
+      "finish": { "fr": "Naturel", "en": "Natural" }
+    },
+    "dims": { "length": "1250", "width": "160", "thickness": "15" },
+    "intro": {
+      "fr": "Le parquet le plus contrasté de la gamme. En qualité ABCD, toutes les nuances de l'acacia cohabitent dans le même lot : du miel clair au brun profond.",
+      "en": "The most contrasted floor in the range. In ABCD grade, every shade of acacia lives in the same batch: from pale honey to deep brown."
+    },
+    "body": {
+      "fr": [
+        "L'acacia est nettement plus dur que l'hévéa, ce qui en fait un bon candidat pour les pièces de passage. Sa densité lui donne aussi un toucher plus ferme sous le pied.",
+        "La qualité ABCD est un choix esthétique : nœuds, aubier et variations de teinte sont assumés. Le résultat est un sol vivant, très différent d'un parquet trié.",
+        "Un point à anticiper en chantier : mélangez les lames de plusieurs paquets à la pose pour répartir les nuances, sinon les zones claires et foncées se regroupent."
+      ],
+      "en": [
+        "Acacia is markedly harder than rubberwood, which makes it a good candidate for circulation areas. Its density also gives a firmer feel underfoot.",
+        "ABCD is an aesthetic choice: knots, sapwood and colour variation are all part of the look. The result is a lively floor, very different from a sorted one.",
+        "One thing to plan for on site: mix boards from several packs while laying, otherwise the light and dark zones bunch together."
+      ]
+    },
+    "uses": {
+      "fr": ["Sols résidentiels", "Restaurants et commerces", "Pièces de passage", "Rénovation"],
+      "en": ["Residential floors", "Restaurants and retail", "Circulation areas", "Renovation"]
+    }
+  },
+  {
+    "id": "terrasse-bambou-light",
+    "slug": { "fr": "terrasse-bambou-light", "en": "light-bamboo-decking" },
+    "image": "/assets/img/products/terrasse-bambou-light.jpg",
+    "category": { "fr": "Terrasses", "en": "Decking" },
+    "name": { "fr": "Terrasse Bambou Light", "en": "Light Bamboo Decking" },
+    "subtitle": { "fr": "Thermodensifié · Teinte claire", "en": "Strand woven · Light tone" },
+    "specs": {
+      "species": { "fr": "Bambou Moso thermodensifié", "en": "Strand woven Moso bamboo" },
+      "quality": { "fr": "Extérieur", "en": "Exterior" },
+      "structure": { "fr": "Lame massive thermodensifiée, profil rainuré", "en": "Solid strand woven board, grooved profile" },
+      "finish": { "fr": "Huilée en usine, teinte claire", "en": "Factory-oiled, light tone" }
+    },
+    "dims": { "length": "1860", "width": "139", "thickness": "18 · 20" },
+    "intro": {
+      "fr": "Une lame de terrasse très dense, dans une teinte chaude et claire. Le thermodensifié offre une alternative crédible aux bois exotiques classiques, avec une ressource de plantation à cycle court.",
+      "en": "A very dense decking board in a warm, light tone. Strand woven bamboo is a credible alternative to classic tropical hardwoods, from a short-cycle plantation resource."
+    },
+    "body": {
+      "fr": [
+        "La compression à haute pression donne une lame beaucoup plus dense qu'un bois massif courant : peu de mouvement, bonne tenue au poinçonnement, faible reprise d'humidité.",
+        "Comme tout bois en extérieur, la teinte évolue sous UV. Une terrasse laissée sans entretien grisaille ; un dégriseur suivi d'une huile la ramène à sa couleur d'origine. Prévoyez une huile de saturation une fois par an selon l'exposition.",
+        "Le profil, la pose (clips ou vis) et l'entraxe des lambourdes conditionnent la garantie du fabricant : indiquez-nous le type de support pour que nous cotions le bon profil et la bonne visserie."
+      ],
+      "en": [
+        "High-pressure compression produces a board far denser than common solid timber: little movement, good indentation resistance and low moisture uptake.",
+        "Like any exterior timber, the tone shifts under UV. A deck left unmaintained silvers over; a wood brightener followed by oil brings it back. Plan on a saturating oil once a year depending on exposure.",
+        "The profile, the fixing method (clips or screws) and the joist spacing all affect the manufacturer's warranty: tell us the substrate so we quote the right profile and fixings."
+      ]
+    },
+    "uses": {
+      "fr": ["Terrasses résidentielles", "Plages de piscine", "Terrasses de restaurants", "Passerelles et pontons"],
+      "en": ["Residential decks", "Pool surrounds", "Restaurant terraces", "Walkways and boardwalks"]
+    }
+  },
+  {
+    "id": "terrasse-bambou-dark",
+    "slug": { "fr": "terrasse-bambou-dark", "en": "dark-bamboo-decking" },
+    "image": "/assets/img/products/terrasse-bambou-dark.jpg",
+    "category": { "fr": "Terrasses", "en": "Decking" },
+    "name": { "fr": "Terrasse Bambou Dark", "en": "Dark Bamboo Decking" },
+    "subtitle": { "fr": "Thermodensifié · Teinte foncée", "en": "Strand woven · Dark tone" },
+    "specs": {
+      "species": { "fr": "Bambou Moso thermodensifié", "en": "Strand woven Moso bamboo" },
+      "quality": { "fr": "Extérieur", "en": "Exterior" },
+      "structure": { "fr": "Lame massive thermodensifiée, profil rainuré", "en": "Solid strand woven board, grooved profile" },
+      "finish": { "fr": "Huilée en usine, teinte foncée", "en": "Factory-oiled, dark tone" }
+    },
+    "dims": { "length": "1860", "width": "139", "thickness": "18 · 20" },
+    "intro": {
+      "fr": "La même lame que la version Light, dans une teinte brun foncé obtenue par traitement thermique plus poussé. Un rendu proche des bois exotiques denses.",
+      "en": "The same board as the Light version, in a dark brown tone obtained through a more intense heat treatment. A look close to dense tropical hardwoods."
+    },
+    "body": {
+      "fr": [
+        "La teinte foncée traverse la lame : une rayure ou une coupe ne fait pas apparaître de bois clair en dessous, contrairement à un lasurage de surface.",
+        "En plein soleil, une lame foncée monte plus haut en température qu'une lame claire. À prendre en compte pour une plage de piscine ou une terrasse pieds nus plein sud.",
+        "Les deux teintes Light et Dark partagent le même profil et les mêmes fixations : on peut les combiner sur un même ouvrage pour créer des jeux de bandes."
+      ],
+      "en": [
+        "The dark tone runs through the board: a scratch or a cut does not reveal pale wood underneath, unlike a surface stain.",
+        "In full sun, a dark board heats up more than a light one. Worth considering for a pool surround or a south-facing barefoot terrace.",
+        "Light and Dark share the same profile and fixings, so they can be combined on the same project to create banded patterns."
+      ]
+    },
+    "uses": {
+      "fr": ["Terrasses résidentielles", "Plages de piscine", "Terrasses de restaurants", "Aménagements paysagers"],
+      "en": ["Residential decks", "Pool surrounds", "Restaurant terraces", "Landscaping"]
+    }
+  },
+  {
+    "id": "placage-bambou",
+    "slug": { "fr": "placage-bambou", "en": "bamboo-veneer" },
+    "image": "/assets/img/products/placage-bambou.jpg",
+    "category": { "fr": "Placages", "en": "Veneer" },
+    "name": { "fr": "Placage Bambou", "en": "Bamboo Veneer" },
+    "subtitle": { "fr": "Horizontal ou vertical · Naturel ou caramel", "en": "Horizontal or vertical · Natural or caramel" },
+    "specs": {
+      "species": { "fr": "Bambou Moso", "en": "Moso bamboo" },
+      "quality": { "fr": "Premium", "en": "Premium" },
+      "structure": { "fr": "Feuille de placage tranchée", "en": "Sliced veneer sheet" },
+      "finish": { "fr": "Naturel · Caramel", "en": "Natural · Caramel" }
+    },
+    "dims": { "length": "2460", "width": "430", "thickness": "0,6" },
+    "intro": {
+      "fr": "0,6 mm d'épaisseur : le moyen le plus léger et le plus économique de donner un aspect bambou massif à un support panneau.",
+      "en": "0.6 mm thick: the lightest and most economical way to give a panel substrate the look of solid bamboo."
+    },
+    "body": {
+      "fr": [
+        "Le placage reprend exactement les deux dessins du panneau — horizontal à lattes larges, vertical à rayage fin — et les deux teintes, naturelle et caramel. Il permet donc d'assortir des façades plaquées à des chants ou des plans en bambou massif.",
+        "Il se colle sur MDF, contreplaqué ou panneau de particules avec une colle à bois classique, à la presse ou au sac. Comme tout placage fin, il demande un support parfaitement plan.",
+        "Le format 2460 × 430 mm couvre les hauteurs de façades de cuisine et de dressing standard sans raccord horizontal."
+      ],
+      "en": [
+        "The veneer reproduces exactly the two panel patterns — wide-strip horizontal and fine-stripe vertical — and both tones, natural and caramel. It lets you match veneered fronts to solid bamboo edges or tops.",
+        "It bonds to MDF, plywood or particleboard with standard woodworking adhesive, in a press or a vacuum bag. Like any thin veneer, it needs a perfectly flat substrate.",
+        "The 2460 × 430 mm format covers standard kitchen and wardrobe front heights with no horizontal join."
+      ]
+    },
+    "uses": {
+      "fr": ["Façades de meubles", "Agencement de magasins", "Portes et cloisons", "Aménagement de yachts et véhicules"],
+      "en": ["Furniture fronts", "Retail fit-out", "Doors and partitions", "Yacht and vehicle interiors"]
+    }
+  },
+  {
+    "id": "bardage-bambou",
+    "slug": { "fr": "bardage-bambou", "en": "bamboo-cladding" },
+    "image": "/assets/img/products/bardage-bambou.jpg",
+    "category": { "fr": "Bardages", "en": "Cladding" },
+    "name": { "fr": "Bardage Bambou", "en": "Bamboo Cladding" },
+    "subtitle": { "fr": "Thermodensifié · Dark ou Light", "en": "Strand woven · Dark or Light" },
+    "specs": {
+      "species": { "fr": "Bambou Moso thermodensifié", "en": "Strand woven Moso bamboo" },
+      "quality": { "fr": "Extérieur", "en": "Exterior" },
+      "structure": { "fr": "Lame massive thermodensifiée pour pose en façade", "en": "Solid strand woven board for facade installation" },
+      "finish": { "fr": "Dark · Light", "en": "Dark · Light" }
+    },
+    "dims": { "length": "1860", "width": "103", "thickness": "12" },
+    "intro": {
+      "fr": "La lame de façade de la gamme thermodensifiée : plus étroite et plus fine que la terrasse, pour un rythme vertical ou horizontal serré.",
+      "en": "The facade board of the strand woven range: narrower and thinner than the decking, for a tight vertical or horizontal rhythm."
+    },
+    "body": {
+      "fr": [
+        "Même matière que la terrasse — fibres de bambou compressées à haute pression — mais en 103 × 12 mm, un format pensé pour l'habillage de façade et non pour être marché dessus.",
+        "En bardage, la ventilation de la lame d'air derrière le parement conditionne la durabilité : respectez le vide technique et les fixations préconisées, quel que soit le matériau.",
+        "Disponible dans les mêmes teintes Dark et Light que la terrasse, ce qui permet de traiter façade et sol extérieur dans une continuité de teinte."
+      ],
+      "en": [
+        "Same material as the decking — bamboo fibres compressed under high pressure — but in 103 × 12 mm, a format designed to clad a facade rather than be walked on.",
+        "On cladding, ventilation of the air gap behind the boards drives durability: respect the cavity and the recommended fixings, whatever the material.",
+        "Available in the same Dark and Light tones as the decking, so a facade and an outdoor floor can be treated in one continuous colour."
+      ]
+    },
+    "uses": {
+      "fr": ["Bardage de façade", "Habillage extérieur", "Claustras et brise-vues", "Sous-faces de débords de toiture"],
+      "en": ["Facade cladding", "Exterior lining", "Screens and privacy fences", "Roof overhang soffits"]
+    }
+  }
+]

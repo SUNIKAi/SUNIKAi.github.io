@@ -1,0 +1,250 @@
+{
+  "brand": {
+    "name": "SUNIKAI",
+    "tagline": "sourcing · import · export",
+    "domain": "https://sunikai.com",
+    "email": "vincent@sunikai.com",
+    "logo": "/assets/img/logo-sunikai.jpg"
+  },
+  "formspree": "https://formspree.io/f/VOTRE_ID_FORMSPREE",
+  "contacts": [
+    {
+      "name": "Frédéric Gachon",
+      "role": {
+        "fr": "Directeur commercial",
+        "en": "Sales Director"
+      },
+      "phone": "+33 6 08 51 22 88",
+      "phoneHref": "+33608512288",
+      "email": ""
+    },
+    {
+      "name": "Vincent Bergeron",
+      "role": {
+        "fr": "Directeur export",
+        "en": "Export Director"
+      },
+      "phone": "",
+      "phoneHref": "",
+      "email": "vincent@sunikai.com"
+    }
+  ],
+  "i18n": {
+    "fr": {
+      "locale": "fr_FR",
+      "langName": "Français",
+      "otherLangName": "English",
+      "nav": {
+        "home": "Accueil",
+        "products": "Produits",
+        "services": "Services",
+        "about": "À propos",
+        "news": "Actualités",
+        "contact": "Contact"
+      },
+      "skipToContent": "Aller au contenu",
+      "cta": {
+        "quote": "Demander un devis",
+        "quoteLong": "Besoin d'un devis, d'une cotation ou de renseignements ?",
+        "contactUs": "Contactez-nous",
+        "seeProducts": "Voir nos produits",
+        "seeProduct": "Voir la fiche",
+        "allProducts": "Tous les produits",
+        "downloadCatalogue": "Télécharger le catalogue PDF",
+        "backToProducts": "Retour aux produits",
+        "quoteThis": "Demander un devis pour ce produit",
+        "learnMore": "En savoir plus"
+      },
+      "home": {
+        "heroTitle": "Le bois d'Asie,<br>livré chez vous<br>sans mauvaise surprise.",
+        "heroLead": "Sunikai est le spécialiste de l'importation de produits en bois d'Asie pour le marché européen. Sourcing sur mesure, contrôle qualité en usine avant chaque expédition, livraison DAP jusqu'à votre entrepôt.",
+        "trust": [
+          "Contrôle qualité sur site, avant chaque expédition",
+          "Livraison en Incoterm DAP à votre entrepôt",
+          "Certifications PEFC / FSC",
+          "Un interlocuteur direct, du devis à la livraison"
+        ],
+        "servicesTitle": "Ce que nous prenons en charge",
+        "servicesLead": "De la sélection de l'usine à la palette déchargée chez vous, vous n'avez qu'un seul interlocuteur.",
+        "productsTitle": "Nos produits",
+        "productsLead": "Panneaux, parquets, terrasses, placages et bardages en hévéa, acacia et bambou. Les dimensions indiquées sont standard : d'autres formats sont possibles sur demande.",
+        "whyTitle": "Pourquoi travailler avec Sunikai",
+        "figuresTitle": "En bref"
+      },
+      "products": {
+        "title": "Nos produits",
+        "lead": "Panneaux, parquets, terrasses, placages et bardages issus de nos usines partenaires en Asie. Dimensions standard indiquées en millimètres — les formats spéciaux sont étudiés au cas par cas.",
+        "specs": "Caractéristiques",
+        "dimensions": "Dimensions standard",
+        "length": "Longueur",
+        "width": "Largeur",
+        "thickness": "Épaisseur",
+        "species": "Essence",
+        "quality": "Qualité",
+        "finish": "Finitions",
+        "structure": "Structure",
+        "uses": "Utilisations",
+        "related": "Produits associés",
+        "mm": "mm",
+        "onRequest": "Autres dimensions sur demande"
+      },
+      "services": {
+        "title": "Nos services",
+        "lead": "Trois métiers, une seule chaîne : nous cherchons le bon produit au bon prix, nous vérifions qu'il est conforme avant qu'il quitte l'usine, et nous l'amenons jusqu'à votre quai."
+      },
+      "about": {
+        "title": "À propos de Sunikai",
+        "lead": "Un importateur à taille humaine, présent des deux côtés de la chaîne."
+      },
+      "news": {
+        "title": "Actualités",
+        "lead": "Marché, matériaux, réglementation : ce qu'il faut savoir quand on importe du bois d'Asie.",
+        "readMore": "Lire l'article",
+        "empty": "Les premiers articles arrivent bientôt.",
+        "backToNews": "Retour aux actualités"
+      },
+      "contact": {
+        "title": "Contact",
+        "lead": "Décrivez votre besoin : produit, dimensions, volume et pays de livraison. Nous revenons vers vous avec une cotation.",
+        "formTitle": "Demande de devis",
+        "teamTitle": "Notre équipe",
+        "fields": {
+          "name": "Nom et prénom",
+          "company": "Société",
+          "email": "Email",
+          "phone": "Téléphone",
+          "country": "Pays de livraison",
+          "product": "Produit concerné",
+          "productPlaceholder": "Sélectionnez un produit",
+          "productOther": "Autre / plusieurs produits",
+          "volume": "Volume estimé",
+          "volumePlaceholder": "ex. 2 conteneurs 40 pieds / 500 m² / 40 m³",
+          "message": "Votre demande",
+          "messagePlaceholder": "Dimensions, qualité, finition, délai souhaité…",
+          "submit": "Envoyer ma demande",
+          "required": "obligatoire",
+          "consent": "J'accepte que ces informations soient utilisées pour me recontacter."
+        },
+        "success": "Merci, votre demande a bien été envoyée. Nous vous répondons sous 48 h ouvrées.",
+        "error": "L'envoi a échoué. Écrivez-nous directement à vincent@sunikai.com.",
+        "notConfigured": "Formulaire non encore configuré — écrivez-nous à vincent@sunikai.com."
+      },
+      "footer": {
+        "blurb": "Importation de produits en bois d'Asie pour le marché européen : panneaux, parquets, terrasses, placages et bardages en hévéa, acacia et bambou.",
+        "navTitle": "Navigation",
+        "productsTitle": "Produits",
+        "contactTitle": "Contact",
+        "rights": "Tous droits réservés.",
+        "legal": "Mentions légales"
+      }
+    },
+    "en": {
+      "locale": "en_GB",
+      "langName": "English",
+      "otherLangName": "Français",
+      "nav": {
+        "home": "Home",
+        "products": "Products",
+        "services": "Services",
+        "about": "About",
+        "news": "News",
+        "contact": "Contact"
+      },
+      "skipToContent": "Skip to content",
+      "cta": {
+        "quote": "Request a quote",
+        "quoteLong": "Need a quote, a price or more information?",
+        "contactUs": "Get in touch",
+        "seeProducts": "See our products",
+        "seeProduct": "View details",
+        "allProducts": "All products",
+        "downloadCatalogue": "Download the PDF catalogue",
+        "backToProducts": "Back to products",
+        "quoteThis": "Request a quote for this product",
+        "learnMore": "Learn more"
+      },
+      "home": {
+        "heroTitle": "Asian timber,<br>delivered to your door,<br>with no surprises.",
+        "heroLead": "Sunikai imports Asian wood products for the European market. Tailored sourcing, in-factory quality control before every shipment, DAP delivery straight to your warehouse.",
+        "trust": [
+          "On-site quality control before every shipment",
+          "DAP delivery to your warehouse",
+          "PEFC / FSC certified products",
+          "One direct contact, from quote to delivery"
+        ],
+        "servicesTitle": "What we take care of",
+        "servicesLead": "From picking the mill to the pallet unloaded at your door, you deal with one team only.",
+        "productsTitle": "Our products",
+        "productsLead": "Panels, flooring, decking, veneer and cladding in rubberwood, acacia and bamboo. The dimensions shown are standard — other formats are available on request.",
+        "whyTitle": "Why work with Sunikai",
+        "figuresTitle": "At a glance"
+      },
+      "products": {
+        "title": "Our products",
+        "lead": "Panels, flooring, decking, veneer and cladding from our partner mills in Asia. Standard dimensions in millimetres — special formats are quoted case by case.",
+        "specs": "Specifications",
+        "dimensions": "Standard dimensions",
+        "length": "Length",
+        "width": "Width",
+        "thickness": "Thickness",
+        "species": "Species",
+        "quality": "Grade",
+        "finish": "Finishes",
+        "structure": "Construction",
+        "uses": "Applications",
+        "related": "Related products",
+        "mm": "mm",
+        "onRequest": "Other dimensions on request"
+      },
+      "services": {
+        "title": "Our services",
+        "lead": "Three jobs, one chain: we find the right product at the right price, we check it complies before it leaves the mill, and we bring it to your loading bay."
+      },
+      "about": {
+        "title": "About Sunikai",
+        "lead": "A human-sized importer, present at both ends of the chain."
+      },
+      "news": {
+        "title": "News",
+        "lead": "Market, materials, regulation: what you need to know when importing timber from Asia.",
+        "readMore": "Read the article",
+        "empty": "First articles coming soon.",
+        "backToNews": "Back to news"
+      },
+      "contact": {
+        "title": "Contact",
+        "lead": "Tell us what you need: product, dimensions, volume and delivery country. We come back to you with a quotation.",
+        "formTitle": "Quote request",
+        "teamTitle": "Our team",
+        "fields": {
+          "name": "Full name",
+          "company": "Company",
+          "email": "Email",
+          "phone": "Phone",
+          "country": "Delivery country",
+          "product": "Product",
+          "productPlaceholder": "Select a product",
+          "productOther": "Other / several products",
+          "volume": "Estimated volume",
+          "volumePlaceholder": "e.g. 2 × 40 ft containers / 500 sqm / 40 m³",
+          "message": "Your request",
+          "messagePlaceholder": "Dimensions, grade, finish, required lead time…",
+          "submit": "Send my request",
+          "required": "required",
+          "consent": "I agree that this information may be used to contact me back."
+        },
+        "success": "Thank you, your request has been sent. We reply within 2 working days.",
+        "error": "Sending failed. Please email us directly at vincent@sunikai.com.",
+        "notConfigured": "Form not configured yet — please email us at vincent@sunikai.com."
+      },
+      "footer": {
+        "blurb": "Import of Asian wood products for the European market: panels, flooring, decking, veneer and cladding in rubberwood, acacia and bamboo.",
+        "navTitle": "Navigation",
+        "productsTitle": "Products",
+        "contactTitle": "Contact",
+        "rights": "All rights reserved.",
+        "legal": "Legal notice"
+      }
+    }
+  }
+}

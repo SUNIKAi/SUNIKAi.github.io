@@ -1,0 +1,17 @@
+# Photos d'origine : lourdes, inutiles en ligne (conservees en local)
+assets/img/_originals/
+
+# Fichiers intermediaires de generation du catalogue PDF
+tools/_print/
+
+# Systeme / editeurs
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Node (le projet n'a aucune dependance, mais au cas ou)
+node_modules/
+package-lock.json
