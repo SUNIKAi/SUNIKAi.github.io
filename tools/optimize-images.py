@@ -35,6 +35,9 @@ Q_SMALL = 70
 
 EXTS = (".jpg", ".jpeg", ".png")
 
+# Icones : a laisser telles quelles (ne pas convertir en JPEG, pas de variante -sm)
+SKIP_NAMES = {"apple-touch-icon.png", "favicon.png", "og-image.png"}
+
 
 def collect():
     """Retourne la liste des (chemin_relatif) des images a traiter."""
@@ -45,6 +48,8 @@ def collect():
             if not f.lower().endswith(EXTS):
                 continue
             if "-sm." in f:             # variante deja generee
+                continue
+            if f in SKIP_NAMES:         # icones
                 continue
             out.append(os.path.relpath(os.path.join(base, f), IMG))
     return sorted(out)
