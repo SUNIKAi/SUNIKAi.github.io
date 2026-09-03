@@ -43,7 +43,8 @@ node tools/make-catalogue.js     # catalogues PDF FR + EN (via Chrome headless)
 - `build.js` — générateur unique. Contient les routes (`ROUTES`), le `layout()`
   (SEO, hreflang, JSON-LD), les composants (`productCard`, `ctaBand`, `img`…) et
   une fonction par type de page.
-- `content/site.json` — libellés d'interface FR/EN, contacts, URL Formspree.
+- `content/site.json` — libellés d'interface FR/EN, contacts, `formEndpoint`
+  (URL du formulaire, prestataire au choix).
 - `content/products.json` — 11 produits, tous les champs en `{fr, en}`.
 - `content/pages.json` — services, arguments « pourquoi nous », à propos, chiffres.
 - `content/news.json` — articles ; `body` accepte du HTML simple.
