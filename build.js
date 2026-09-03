@@ -781,7 +781,7 @@ ${ctaBand(lang)}`;
 function contactPage(lang) {
   const t = site.i18n[lang];
   const f = t.contact.fields;
-  const configured = !/VOTRE_ID_FORMSPREE/.test(site.formspree);
+  const configured = !!site.formEndpoint && !/^A_CONFIGURER$/.test(site.formEndpoint);
 
   const field = (name, label, type = 'text', required = false, extra = '') => `
       <p class="field">
@@ -796,7 +796,7 @@ ${pageHead(site.brand.tagline, t.contact.title, t.contact.lead)}
     <div class="form-card">
       <h2>${esc(t.contact.formTitle)}</h2>
       ${configured ? '' : `<p class="alert">${esc(t.contact.notConfigured)}</p>`}
-      <form id="quoteForm" action="${esc(site.formspree)}" method="POST" novalidate>
+      <form id="quoteForm" action="${esc(configured ? site.formEndpoint : '')}" method="POST" novalidate>
         <input type="hidden" name="_subject" value="Sunikai — ${esc(t.contact.formTitle)}">
         <input type="hidden" name="_language" value="${lang}">
         <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp">
@@ -832,7 +832,7 @@ ${pageHead(site.brand.tagline, t.contact.title, t.contact.lead)}
           <label for="f-consent">${esc(f.consent)}</label>
         </p>
         <p class="form-actions">
-          <button class="btn btn-amber" type="submit">${esc(f.submit)}</button>
+          <button class="btn btn-amber" type="submit"${configured ? '' : ' disabled title="' + esc(t.contact.notConfigured) + '"'}>${esc(f.submit)}</button>
         </p>
         <p class="form-status" id="formStatus" role="status" aria-live="polite"
            data-success="${esc(t.contact.success)}" data-error="${esc(t.contact.error)}"></p>

@@ -106,20 +106,42 @@ le HTML dans `tools/_print/` : l'ouvrir et faire Ctrl+P → « Enregistrer au fo
 ## 4. Le formulaire de contact — à activer
 
 GitHub Pages ne sert que des fichiers statiques : il ne peut pas envoyer d'email.
-Le formulaire passe donc par **Formspree** (gratuit jusqu'à 50 messages/mois).
+Le formulaire a donc besoin d'un **endpoint** — une URL qui reçoit la soumission
+et te la transmet par mail.
 
-1. Créer un compte sur <https://formspree.io> avec `vincent@sunikai.com`
-2. Créer un formulaire, récupérer son URL (`https://formspree.io/f/xxxxxxx`)
-3. La coller dans `content/site.json`, champ `formspree`
-4. `node build.js`, puis pousser
+Le site ne dépend d'aucun prestataire en particulier : l'URL vit dans un seul
+champ, `formEndpoint` de `content/site.json`. En changer, c'est une ligne.
 
-Tant que ce n'est pas fait, la page contact affiche un bandeau qui invite à
-écrire directement à `vincent@sunikai.com`, et le formulaire n'est pas envoyé.
+```json
+"formEndpoint": "A_CONFIGURER"
+```
 
-**Alternatives** si Formspree ne convient pas : Web3Forms, Basin, ou un
-formulaire Google Forms intégré.
+Tant que la valeur vaut `A_CONFIGURER`, la page contact affiche un bandeau, le
+bouton d'envoi est désactivé et le visiteur est renvoyé vers l'email direct.
 
----
+### Option A — un service de formulaire (5 minutes)
+
+| Service | Gratuit | Compte requis |
+|---|---|---|
+| **Web3Forms** | ~250 envois/mois | non, une clé par email |
+| **Formspree** | ~50 envois/mois | oui |
+| **Basin** | essai puis payant | oui |
+
+Coller l'URL fournie dans `formEndpoint`, lancer `node build.js`, pousser.
+Le JS envoie déjà en `fetch` avec `Accept: application/json` — le format
+attendu par ces trois services.
+
+*Vérifier les quotas gratuits sur le site du prestataire : ils changent.*
+
+### Option B — ton propre endpoint (autonomie complète)
+
+Un Cloudflare Worker (ou une petite fonction serverless) qui reçoit le POST et
+relaie par email. Nécessite un plan Workers payant (~5 $/mois) et un service
+d'envoi. À faire seulement après la migration DNS vers Cloudflare.
+
+⚠️ **Cloudflare Email Routing prend la main sur les MX du domaine.** Ne jamais
+l'activer sur `sunikai.com` sans avoir vérifié l'impact sur Google Workspace :
+`vincent@sunikai.com` en dépend.
 
 ## 5. Mise en ligne — GitHub Pages + sunikai.com
 
@@ -193,7 +215,7 @@ Une fois le site en ligne :
 
 - [ ] **Mentions légales** : forme juridique, siège, RCS, TVA, directeur de
       publication — voir `build.js`, fonction `legalPage()` (mention « À compléter »)
-- [ ] **Formspree** : identifiant à coller dans `content/site.json`
+- [ ] **Endpoint du formulaire** : URL à coller dans `formEndpoint` (`content/site.json`)
 - [ ] **Certifications PEFC / FSC** : vérifier ce qui est réellement certifié et
       sur quelles essences, pour ne rien annoncer de trop large
 - [ ] **Email de Frédéric Gachon** : absent de l'ancien site, à ajouter dans

@@ -144,6 +144,8 @@ abbr[title] { text-decoration: none; color: var(--amber-600); }
 }
 .btn:hover { transform: translateY(-2px); box-shadow: var(--shadow); color: var(--btn-fg); }
 .btn:active { transform: translateY(0); }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+.btn:disabled:hover { transform: none; box-shadow: none; }
 
 .btn-amber { --btn-bg: var(--amber); --btn-bd: var(--amber); --btn-fg: var(--teal-900); }
 .btn-amber:hover { --btn-bg: var(--amber-600); --btn-bd: var(--amber-600); }

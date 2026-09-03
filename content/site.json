@@ -6,7 +6,7 @@
     "email": "vincent@sunikai.com",
     "logo": "/assets/img/logo-sunikai.jpg"
   },
-  "formspree": "https://formspree.io/f/VOTRE_ID_FORMSPREE",
+  "formEndpoint": "A_CONFIGURER",
   "contacts": [
     {
       "name": "Frédéric Gachon",

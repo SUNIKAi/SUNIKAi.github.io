@@ -91,8 +91,11 @@ Google Fonts.
 
 ## État / reste à faire
 
-- Formulaire de contact : URL Formspree encore à `VOTRE_ID_FORMSPREE` dans
-  `content/site.json` → le formulaire affiche un bandeau et n'envoie rien.
+- Formulaire de contact : `formEndpoint` vaut encore `A_CONFIGURER` dans
+  `content/site.json` → bandeau affiché, bouton d'envoi désactivé. Le champ est
+  volontairement neutre (Web3Forms, Formspree, Worker maison… au choix).
+- ⚠️ Cloudflare Email Routing prend la main sur les MX : ne jamais l'activer sur
+  `sunikai.com` sans vérifier l'impact sur Google Workspace.
 - Mentions légales incomplètes (forme juridique, RCS, TVA) — voir `legalPage()`.
 - Pas encore poussé sur GitHub ni branché sur le domaine.
 - Idées : article sur le règlement EUDR, photos réelles d'usine/équipe,

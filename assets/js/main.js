@@ -77,7 +77,7 @@
 
   if (form && status) {
     form.addEventListener('submit', function (e) {
-      if (!form.action || form.action.indexOf('VOTRE_ID_FORMSPREE') !== -1) return; // laisse le navigateur gérer
+      if (!form.getAttribute('action')) { e.preventDefault(); return; } // pas encore configuré
       if (!form.checkValidity()) {
         form.reportValidity();
         e.preventDefault();
