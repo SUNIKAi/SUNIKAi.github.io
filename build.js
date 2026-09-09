@@ -1012,8 +1012,16 @@ function run() {
   fs.writeFileSync(path.join(ROOT, '.nojekyll'), '', 'utf8');
   fs.writeFileSync(path.join(ROOT, 'assets', 'img', 'favicon.svg'), faviconSvg(), 'utf8');
 
-  const domain = DOMAIN.replace(/^https?:\/\//, '');
-  fs.writeFileSync(path.join(ROOT, 'CNAME'), domain + '\n', 'utf8');
+  // CNAME : uniquement quand le domaine perso est réellement branché.
+  // Tant que brand.customDomainActive vaut false, GitHub Pages sert le site sur
+  // <compte>.github.io ; un CNAME présent ferait rediriger vers sunikai.com,
+  // qui ne pointe pas encore ici — le site paraîtrait cassé.
+  const cnamePath = path.join(ROOT, 'CNAME');
+  if (site.brand.customDomainActive) {
+    fs.writeFileSync(cnamePath, DOMAIN.replace(/^https?:\/\//, '') + '\n', 'utf8');
+  } else if (fs.existsSync(cnamePath)) {
+    fs.unlinkSync(cnamePath);
+  }
 
   console.log(`✓ ${built.length} pages générées`);
   built.forEach((b) => console.log('  ' + b));
