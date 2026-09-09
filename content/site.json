@@ -3,7 +3,7 @@
     "name": "SUNIKAI",
     "tagline": "sourcing · import · export",
     "domain": "https://sunikai.com",
-    "customDomainActive": false,
+    "customDomainActive": true,
     "email": "vincent@sunikai.com",
     "logo": "/assets/img/logo-sunikai.jpg"
   },
