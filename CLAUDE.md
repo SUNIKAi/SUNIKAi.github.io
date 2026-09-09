@@ -98,12 +98,22 @@ Google Fonts.
 - ⚠️ Cloudflare Email Routing prend la main sur les MX : ne jamais l'activer sur
   `sunikai.com` sans vérifier l'impact sur Google Workspace.
 - Mentions légales incomplètes (forme juridique, RCS, TVA) — voir `legalPage()`.
-- Pas encore poussé sur GitHub ni branché sur le domaine.
+- **En ligne depuis le 2026-09-09** sur https://sunikai.github.io
+  (dépôt `SUNIKAi/SUNIKAi.github.io`, Pages auto-activé, 30/30 URLs en 200).
+- Domaine `sunikai.com` **pas encore branché** : `brand.customDomainActive`
+  vaut `false`, donc pas de CNAME généré. Passer à `true` AU MOMENT de la
+  bascule DNS, jamais avant (sinon github.io redirige vers un domaine mort).
+- Le user pousse avec **GitHub Desktop** (ses identifiants y sont stockés).
+  La ligne de commande n'a pas d'identifiants GitHub sur cette machine :
+  ne pas tenter `git push` depuis une session Claude, lui demander de pousser.
 - Idées : article sur le règlement EUDR, photos réelles d'usine/équipe,
   page « références / réalisations ».
 
 ## Historique
 
+- **2026-09-09 — mise en ligne.** Dépôt `SUNIKAi.github.io` créé (nom imposé :
+  les liens du site sont absolus, un dépôt projet servi sur un sous-chemin
+  casserait tout). CNAME rendu conditionnel. Site vérifié en production.
 - **2026-09-02 — création.** Contenu et photos récupérés de l'ancien site
   onepage. 11 fiches produit, 3 services, 3 articles, catalogues PDF FR/EN,
   formulaire de devis, SEO (sitemap, hreflang, JSON-LD, OpenGraph).
