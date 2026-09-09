@@ -98,11 +98,17 @@ Google Fonts.
 - ⚠️ Cloudflare Email Routing prend la main sur les MX : ne jamais l'activer sur
   `sunikai.com` sans vérifier l'impact sur Google Workspace.
 - Mentions légales incomplètes (forme juridique, RCS, TVA) — voir `legalPage()`.
-- **En ligne depuis le 2026-09-09** sur https://sunikai.github.io
-  (dépôt `SUNIKAi/SUNIKAi.github.io`, Pages auto-activé, 30/30 URLs en 200).
-- Domaine `sunikai.com` **pas encore branché** : `brand.customDomainActive`
-  vaut `false`, donc pas de CNAME généré. Passer à `true` AU MOMENT de la
-  bascule DNS, jamais avant (sinon github.io redirige vers un domaine mort).
+- **EN LIGNE sur https://sunikai.com depuis le 2026-09-09.**
+  Dépôt `SUNIKAi/SUNIKAi.github.io`, `brand.customDomainActive` = `true`,
+  CNAME généré. 30/30 URLs en 200, certificat HTTPS valide, `www` redirige
+  vers l'apex. `sunikai.github.io` redirige vers `sunikai.com`.
+- **Zone DNS finale** (Squarespace, NS Google Cloud DNS) : 4 A + 4 AAAA vers
+  GitHub Pages sur `@`, CNAME `www` -> `sunikai.github.io`, plus les 3
+  enregistrements Google Workspace laissés intacts (MX `smtp.google.com`,
+  TXT SPF, TXT `google._domainkey`). Le bloc « Valeurs par défaut de
+  Squarespace » a été supprimé.
+- Piège observé : le panneau Squarespace met ~20 min à publier ses
+  changements vers les serveurs de noms. Ne pas conclure à un échec avant.
 - Le user pousse avec **GitHub Desktop** (ses identifiants y sont stockés).
   La ligne de commande n'a pas d'identifiants GitHub sur cette machine :
   ne pas tenter `git push` depuis une session Claude, lui demander de pousser.
