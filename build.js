@@ -71,12 +71,41 @@ function img(src, alt, opts) {
   return `<img src="${src}"${srcset} alt="${esc(alt || '')}"${o.cls ? ` class="${o.cls}"` : ''}${loading} decoding="async">`;
 }
 
-const dimsLine = (p, t) =>
-  [
-    `${t.products.length} ${p.dims.length}`,
-    `${t.products.width} ${p.dims.width}`,
-    `${t.products.thickness} ${p.dims.thickness}`,
-  ].join(' · ');
+/** Ligne courte des cartes produit : premier groupe de formats. */
+function sizesSummary(p, lang) {
+  const g = (p.sizes || [])[0];
+  if (!g) return '';
+  const vals = g.values.map((v) => L(v, lang)).join(' · ');
+  return `<strong>${esc(L(g.label, lang))}</strong> ${esc(vals)}${g.unit ? ' ' + esc(g.unit) : ''}`;
+}
+
+/** Bloc « formats / finitions / options » en pastilles, sur la fiche produit. */
+function optionsBlock(p, lang, t) {
+  const rows = [];
+  for (const g of p.sizes || []) {
+    rows.push(`
+        <div class="opt-row">
+          <p class="opt-label">${esc(L(g.label, lang))}${g.unit ? ` <span>(${esc(g.unit)})</span>` : ''}</p>
+          <ul class="pills">${g.values.map((v) => `<li class="pill">${esc(L(v, lang))}</li>`).join('')}</ul>
+          ${g.note ? `<p class="opt-note">${esc(L(g.note, lang))}</p>` : ''}
+        </div>`);
+  }
+  if ((p.finishes || []).length) {
+    rows.push(`
+        <div class="opt-row">
+          <p class="opt-label">${esc(t.products.finishes)}</p>
+          <ul class="pills">${p.finishes.map((f) => `<li class="pill">${f.swatch ? `<span class="pill-swatch" style="background:${f.swatch}"></span>` : ''}${esc(L(f, lang))}</li>`).join('')}</ul>
+        </div>`);
+  }
+  if ((p.options || []).length) {
+    rows.push(`
+        <div class="opt-row">
+          <p class="opt-label">${esc(t.products.options)}</p>
+          <ul class="pills">${p.options.map((o) => `<li class="pill pill-option">${esc(L(o, lang))}</li>`).join('')}</ul>
+        </div>`);
+  }
+  return rows.length ? `<div class="opt-block">${rows.join('')}\n      </div>` : '';
+}
 
 function write(routePath, html) {
   const clean = routePath.replace(/^\/|\/$/g, '');
@@ -257,7 +286,7 @@ function productCard(p, lang, t) {
   <div class="card-body">
     <h3>${esc(L(p.name, lang))}</h3>
     <p class="card-sub">${esc(L(p.subtitle, lang))}</p>
-    <p class="card-dims">${esc(dimsLine(p, t))} ${esc(t.products.mm)}</p>
+    <p class="card-sizes">${sizesSummary(p, lang)}${(p.finishes || []).some((f) => f.swatch) ? `<span class="card-swatches" aria-hidden="true">${p.finishes.filter((f) => f.swatch).map((f) => `<i style="background:${f.swatch}"></i>`).join('')}</span>` : ''}</p>
     <span class="card-link">${esc(t.cta.seeProduct)} ${icon('arrow')}</span>
   </div>
 </a>`;
@@ -381,7 +410,7 @@ function homePage(lang) {
     <div class="figures">
       ${pages.about.figures
         .map(
-          (f) => `<div class="figure"><span class="figure-value">${esc(f.value)}</span><span class="figure-label">${esc(L(f.label, lang))}</span></div>`
+          (f) => `<div class="figure"><span class="figure-value">${esc(String(f.value).replace('{products}', String(products.length)))}</span><span class="figure-label">${esc(L(f.label, lang))}</span></div>`
         )
         .join('\n      ')}
     </div>
@@ -483,12 +512,12 @@ function productPage(p, lang) {
       <p class="product-subtitle">${esc(L(p.subtitle, lang))}</p>
       <p class="lead">${esc(L(p.intro, lang))}</p>
 
-      <h2 class="mini-title">${esc(t.products.dimensions)} <span>(${esc(t.products.mm)})</span></h2>
-      <dl class="dims">
-        <div><dt>${esc(t.products.length)}</dt><dd>${esc(p.dims.length)}</dd></div>
-        <div><dt>${esc(t.products.width)}</dt><dd>${esc(p.dims.width)}</dd></div>
-        <div><dt>${esc(t.products.thickness)}</dt><dd>${esc(p.dims.thickness)}</dd></div>
-      </dl>
+      <ul class="feature-list">
+        ${(p.features || []).map((f) => `<li>${esc(L(f, lang))}</li>`).join('\n        ')}
+      </ul>
+
+      <h2 class="mini-title">${esc(t.products.sizes)}</h2>
+      ${optionsBlock(p, lang, t)}
       <p class="note-inline">${esc(t.products.onRequest)}</p>
 
       <div class="product-actions">
@@ -511,13 +540,11 @@ function productPage(p, lang) {
     <aside class="spec-box">
       <h2>${esc(t.products.specs)}</h2>
       <dl>
-        ${specRow(t.products.species, L(p.specs.species, lang))}
-        ${specRow(t.products.quality, L(p.specs.quality, lang))}
-        ${specRow(t.products.structure, L(p.specs.structure, lang))}
-        ${specRow(t.products.finish, L(p.specs.finish, lang))}
-        ${specRow(t.products.length, p.dims.length + ' ' + t.products.mm)}
-        ${specRow(t.products.width, p.dims.width + ' ' + t.products.mm)}
-        ${specRow(t.products.thickness, p.dims.thickness + ' ' + t.products.mm)}
+        ${specRow(t.products.material, L(p.material, lang))}
+        ${specRow(t.products.features, (p.features || []).map((f) => L(f, lang)).join(' · '))}
+        ${(p.sizes || []).map((g) => specRow(L(g.label, lang), g.values.map((v) => L(v, lang)).join(' · ') + (g.unit ? ' ' + g.unit : ''))).join('\n        ')}
+        ${specRow(t.products.finishes, (p.finishes || []).map((f) => L(f, lang)).join(' · '))}
+        ${specRow(t.products.options, (p.options || []).map((o) => L(o, lang)).join(' · '))}
       </dl>
       <a class="btn btn-teal btn-block" href="${u('contact', lang)}?product=${encodeURIComponent(p.id)}">${esc(t.cta.quote)}</a>
     </aside>
@@ -551,7 +578,7 @@ ${ctaBand(lang)}`;
       image: DOMAIN + p.image,
       description: strip(L(p.intro, lang)),
       category: L(p.category, lang),
-      material: L(p.specs.species, lang),
+      material: L(p.material, lang),
       brand: { '@type': 'Brand', name: 'Sunikai' },
     },
   });
@@ -617,7 +644,7 @@ ${pageHead(site.brand.tagline, t.about.title, t.about.lead)}
     </div>
     <div class="figures">
       ${pages.about.figures
-        .map((f) => `<div class="figure"><span class="figure-value">${esc(f.value)}</span><span class="figure-label">${esc(L(f.label, lang))}</span></div>`)
+        .map((f) => `<div class="figure"><span class="figure-value">${esc(String(f.value).replace('{products}', String(products.length)))}</span><span class="figure-label">${esc(L(f.label, lang))}</span></div>`)
         .join('\n      ')}
     </div>
   </div>

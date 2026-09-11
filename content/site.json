@@ -70,13 +70,13 @@
         "servicesTitle": "Ce que nous prenons en charge",
         "servicesLead": "De la sélection de l'usine à la palette déchargée chez vous, vous n'avez qu'un seul interlocuteur.",
         "productsTitle": "Nos produits",
-        "productsLead": "Panneaux, parquets, terrasses, placages et bardages en hévéa, acacia et bambou. Les dimensions indiquées sont standard : d'autres formats sont possibles sur demande.",
+        "productsLead": "Panneaux, parquets, terrasses, bardages, lambris et plinthes en hévéa, acacia, bambou et paulownia. Chaque produit existe en plusieurs formats et finitions ; le sur-mesure est étudié au cas par cas.",
         "whyTitle": "Pourquoi travailler avec Sunikai",
         "figuresTitle": "En bref"
       },
       "products": {
         "title": "Nos produits",
-        "lead": "Panneaux, parquets, terrasses, placages et bardages issus de nos usines partenaires en Asie. Dimensions standard indiquées en millimètres — les formats spéciaux sont étudiés au cas par cas.",
+        "lead": "Panneaux, parquets, terrasses, bardages, lambris et plinthes issus de nos usines partenaires en Asie. Dimensions en millimètres — les formats spéciaux sont étudiés au cas par cas.",
         "specs": "Caractéristiques",
         "dimensions": "Dimensions standard",
         "length": "Longueur",
@@ -89,7 +89,12 @@
         "uses": "Utilisations",
         "related": "Produits associés",
         "mm": "mm",
-        "onRequest": "Autres dimensions sur demande"
+        "onRequest": "Autres dimensions sur demande",
+        "sizes": "Formats disponibles",
+        "finishes": "Finitions",
+        "options": "Options",
+        "material": "Matière",
+        "features": "Points clés"
       },
       "services": {
         "title": "Nos services",
@@ -133,7 +138,7 @@
         "notConfigured": "Formulaire non encore configuré — écrivez-nous à vincent@sunikai.com."
       },
       "footer": {
-        "blurb": "Importation de produits en bois d'Asie pour le marché européen : panneaux, parquets, terrasses, placages et bardages en hévéa, acacia et bambou.",
+        "blurb": "Importation de produits en bois d'Asie pour le marché européen : panneaux, parquets, terrasses, bardages, lambris et plinthes en hévéa, acacia, bambou et paulownia.",
         "navTitle": "Navigation",
         "productsTitle": "Produits",
         "contactTitle": "Contact",
@@ -178,13 +183,13 @@
         "servicesTitle": "What we take care of",
         "servicesLead": "From picking the mill to the pallet unloaded at your door, you deal with one team only.",
         "productsTitle": "Our products",
-        "productsLead": "Panels, flooring, decking, veneer and cladding in rubberwood, acacia and bamboo. The dimensions shown are standard — other formats are available on request.",
+        "productsLead": "Panels, flooring, decking, cladding, wall panelling and skirting in rubberwood, acacia, bamboo and paulownia. Every product comes in several sizes and finishes; made-to-measure is quoted case by case.",
         "whyTitle": "Why work with Sunikai",
         "figuresTitle": "At a glance"
       },
       "products": {
         "title": "Our products",
-        "lead": "Panels, flooring, decking, veneer and cladding from our partner mills in Asia. Standard dimensions in millimetres — special formats are quoted case by case.",
+        "lead": "Panels, flooring, decking, cladding, wall panelling and skirting from our partner mills in Asia. Dimensions in millimetres — special sizes are quoted case by case.",
         "specs": "Specifications",
         "dimensions": "Standard dimensions",
         "length": "Length",
@@ -197,7 +202,12 @@
         "uses": "Applications",
         "related": "Related products",
         "mm": "mm",
-        "onRequest": "Other dimensions on request"
+        "onRequest": "Other dimensions on request",
+        "sizes": "Available sizes",
+        "finishes": "Finishes",
+        "options": "Options",
+        "material": "Material",
+        "features": "Key features"
       },
       "services": {
         "title": "Our services",
@@ -241,7 +251,7 @@
         "notConfigured": "Form not configured yet — please email us at vincent@sunikai.com."
       },
       "footer": {
-        "blurb": "Import of Asian wood products for the European market: panels, flooring, decking, veneer and cladding in rubberwood, acacia and bamboo.",
+        "blurb": "Import of Asian wood products for the European market: panels, flooring, decking, cladding, wall panelling and skirting in rubberwood, acacia, bamboo and paulownia.",
         "navTitle": "Navigation",
         "productsTitle": "Products",
         "contactTitle": "Contact",

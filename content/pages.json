@@ -3,7 +3,10 @@
     {
       "id": "sourcing",
       "image": "/assets/img/service-sourcing.jpg",
-      "title": { "fr": "Sourcing personnalisé", "en": "Tailored sourcing" },
+      "title": {
+        "fr": "Sourcing personnalisé",
+        "en": "Tailored sourcing"
+      },
       "short": {
         "fr": "Notre réseau de partenaires asiatiques nous permet de créer des solutions adaptées aux besoins précis de votre marché.",
         "en": "Our network of Asian partners lets us build solutions matched to the precise needs of your market."
@@ -21,14 +24,27 @@
         ]
       },
       "points": {
-        "fr": ["Recherche et audit d'usines partenaires", "Échantillons et validation avant commande", "Négociation prix et délais", "Développement de produits sur mesure"],
-        "en": ["Partner mill research and audit", "Samples and approval before ordering", "Price and lead time negotiation", "Custom product development"]
+        "fr": [
+          "Recherche et audit d'usines partenaires",
+          "Échantillons et validation avant commande",
+          "Négociation prix et délais",
+          "Développement de produits sur mesure"
+        ],
+        "en": [
+          "Partner mill research and audit",
+          "Samples and approval before ordering",
+          "Price and lead time negotiation",
+          "Custom product development"
+        ]
       }
     },
     {
       "id": "controle-qualite",
       "image": "/assets/img/service-qualite.jpg",
-      "title": { "fr": "Contrôle qualité", "en": "Quality control" },
+      "title": {
+        "fr": "Contrôle qualité",
+        "en": "Quality control"
+      },
       "short": {
         "fr": "Pour chaque commande, notre équipe effectue un contrôle qualité sur site et vous remet un rapport détaillé avant expédition.",
         "en": "For every order, our team runs an on-site quality check and hands you a detailed report before shipment."
@@ -46,14 +62,27 @@
         ]
       },
       "points": {
-        "fr": ["Contrôle avant chargement, dans l'usine", "Rapport photo détaillé", "Vérification dimensions et humidité", "Contrôle du conditionnement et du marquage"],
-        "en": ["Pre-shipment inspection inside the mill", "Detailed photo report", "Dimension and moisture checks", "Packing and marking verification"]
+        "fr": [
+          "Contrôle avant chargement, dans l'usine",
+          "Rapport photo détaillé",
+          "Vérification dimensions et humidité",
+          "Contrôle du conditionnement et du marquage"
+        ],
+        "en": [
+          "Pre-shipment inspection inside the mill",
+          "Detailed photo report",
+          "Dimension and moisture checks",
+          "Packing and marking verification"
+        ]
       }
     },
     {
       "id": "import-livraison",
       "image": "/assets/img/service-livraison.jpg",
-      "title": { "fr": "Import et livraison DAP", "en": "Import and DAP delivery" },
+      "title": {
+        "fr": "Import et livraison DAP",
+        "en": "Import and DAP delivery"
+      },
       "short": {
         "fr": "Nous gérons la livraison en Incoterm DAP : transport, formalités douanières et acheminement jusqu'à votre entrepôt.",
         "en": "We handle delivery under DAP Incoterm: transport, customs formalities and haulage to your warehouse."
@@ -71,49 +100,77 @@
         ]
       },
       "points": {
-        "fr": ["Un prix unique, rendu entrepôt", "Booking maritime et documentation", "Formalités douanières", "Suivi d'expédition jusqu'à livraison"],
-        "en": ["One single price, delivered to your warehouse", "Ocean booking and documentation", "Customs formalities", "Shipment tracking through to delivery"]
+        "fr": [
+          "Un prix unique, rendu entrepôt",
+          "Booking maritime et documentation",
+          "Formalités douanières",
+          "Suivi d'expédition jusqu'à livraison"
+        ],
+        "en": [
+          "One single price, delivered to your warehouse",
+          "Ocean booking and documentation",
+          "Customs formalities",
+          "Shipment tracking through to delivery"
+        ]
       }
     }
   ],
   "why": [
     {
-      "title": { "fr": "Présents des deux côtés", "en": "Present at both ends" },
+      "title": {
+        "fr": "Présents des deux côtés",
+        "en": "Present at both ends"
+      },
       "text": {
         "fr": "Une équipe en Asie, au contact des usines, et un interlocuteur commercial en France. Personne ne joue au téléphone arabe entre vous et la production.",
         "en": "A team in Asia, in daily contact with the mills, and a commercial contact in France. Nobody plays telephone between you and the production line."
       }
     },
     {
-      "title": { "fr": "Le contrôle qualité est inclus", "en": "Quality control is included" },
+      "title": {
+        "fr": "Le contrôle qualité est inclus",
+        "en": "Quality control is included"
+      },
       "text": {
         "fr": "Chaque conteneur est contrôlé en usine avant chargement, avec rapport photo. C'est le seul moment où un problème se règle sans vous coûter d'argent.",
         "en": "Every container is inspected in the mill before loading, with a photo report. That is the only moment when a problem can be fixed without costing you money."
       }
     },
     {
-      "title": { "fr": "Un prix rendu, pas un prix départ usine", "en": "A delivered price, not an ex-works price" },
+      "title": {
+        "fr": "Un prix rendu, pas un prix départ usine",
+        "en": "A delivered price, not an ex-works price"
+      },
       "text": {
         "fr": "Nos cotations sont en DAP : le chiffre que vous recevez est celui de la marchandise déchargée chez vous. Vous pouvez construire votre marge dessus tout de suite.",
         "en": "Our quotations are DAP: the figure you receive is the goods unloaded at your place. You can build your margin on it straight away."
       }
     },
     {
-      "title": { "fr": "Certifications PEFC / FSC", "en": "PEFC / FSC certifications" },
+      "title": {
+        "fr": "Certifications PEFC / FSC",
+        "en": "PEFC / FSC certifications"
+      },
       "text": {
         "fr": "Des filières certifiées disponibles sur nos essences, pour répondre aux exigences de vos clients et à la réglementation européenne sur le bois.",
         "en": "Certified supply chains available on our species, to meet your customers' requirements and European timber regulation."
       }
     },
     {
-      "title": { "fr": "Des essences de plantation", "en": "Plantation species" },
+      "title": {
+        "fr": "Des essences de plantation",
+        "en": "Plantation species"
+      },
       "text": {
         "fr": "Hévéa en fin de production de latex, acacia et bambou de plantation à cycle court : des ressources renouvelables, pas du bois de forêt primaire.",
         "en": "Rubberwood at the end of its latex life, plantation acacia and short-cycle bamboo: renewable resources, not primary forest timber."
       }
     },
     {
-      "title": { "fr": "Du sur-mesure, pas un catalogue", "en": "Bespoke, not a catalogue" },
+      "title": {
+        "fr": "Du sur-mesure, pas un catalogue",
+        "en": "Bespoke, not a catalogue"
+      },
       "text": {
         "fr": "Les dimensions publiées sont nos standards. Un format, une qualité ou une finition différente ? C'est exactement le travail de sourcing.",
         "en": "The published dimensions are our standards. A different format, grade or finish? That is precisely what sourcing is for."
@@ -123,23 +180,47 @@
   "about": {
     "body": {
       "fr": [
-        "Sunikai importe des produits en bois d'Asie pour le marché européen : panneaux lamellés-collés, parquets massifs, terrasses, placages et bardages, en hévéa, acacia et bambou.",
+        "Sunikai importe des produits en bois d'Asie pour le marché européen : panneaux lamellés-collés, parquets, terrasses, bardages, lambris et plinthes, en hévéa, acacia, bambou et paulownia.",
         "Notre modèle est simple. Nous sommes présents en Asie, au contact direct des usines : nous savons ce que chacune sait produire, à quel prix et dans quels délais. Et nous sommes présents en Europe, au contact de vos contraintes : normes, saisonnalité, exigences de vos propres clients.",
         "Entre les deux, nous prenons en charge ce qui coince habituellement quand on importe en direct — la sélection de l'usine, le contrôle de la marchandise avant qu'elle quitte le pays, la logistique et les formalités. Vous achetez un produit rendu chez vous, à un prix connu à l'avance.",
         "Nous travaillons avec des négoces, des industriels de l'agencement, des fabricants de mobilier et des distributeurs de matériaux, sur des volumes allant du conteneur unique au flux régulier."
       ],
       "en": [
-        "Sunikai imports Asian wood products for the European market: edge-glued panels, solid flooring, decking, veneer and cladding, in rubberwood, acacia and bamboo.",
+        "Sunikai imports Asian wood products for the European market: edge-glued panels, flooring, decking, cladding, wall panelling and skirting, in rubberwood, acacia, bamboo and paulownia.",
         "Our model is simple. We are present in Asia, in direct contact with the mills: we know what each one can produce, at what price and within what lead time. And we are present in Europe, close to your constraints: standards, seasonality, the demands of your own customers.",
         "In between, we take on what usually goes wrong when importing direct — selecting the mill, checking the goods before they leave the country, logistics and formalities. You buy a product delivered to you, at a price known in advance.",
         "We work with timber merchants, shopfitting manufacturers, furniture makers and building material distributors, on volumes ranging from a single container to a regular flow."
       ]
     },
     "figures": [
-      { "value": "11", "label": { "fr": "références standard", "en": "standard references" } },
-      { "value": "3", "label": { "fr": "essences : hévéa, acacia, bambou", "en": "species: rubberwood, acacia, bamboo" } },
-      { "value": "100 %", "label": { "fr": "des conteneurs contrôlés avant départ", "en": "of containers inspected before departure" } },
-      { "value": "DAP", "label": { "fr": "livraison rendue entrepôt", "en": "delivered to your warehouse" } }
+      {
+        "value": "{products}",
+        "label": {
+          "fr": "références standard",
+          "en": "standard references"
+        }
+      },
+      {
+        "value": "4",
+        "label": {
+          "fr": "essences : hévéa, acacia, bambou, paulownia",
+          "en": "species: rubberwood, acacia, bamboo, paulownia"
+        }
+      },
+      {
+        "value": "100 %",
+        "label": {
+          "fr": "des conteneurs contrôlés avant départ",
+          "en": "of containers inspected before departure"
+        }
+      },
+      {
+        "value": "DAP",
+        "label": {
+          "fr": "livraison rendue entrepôt",
+          "en": "delivered to your warehouse"
+        }
+      }
     ]
   }
 }

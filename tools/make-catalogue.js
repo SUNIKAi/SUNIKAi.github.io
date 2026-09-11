@@ -44,12 +44,12 @@ const CHROME_CANDIDATES = [
 const T = {
   fr: {
     title: 'Catalogue produits',
-    sub: 'Panneaux · Parquets · Terrasses · Placages · Bardages',
+    sub: 'Panneaux · Parquets · Terrasses · Bardages · Lambris · Plinthes',
     intro:
       "Sunikai importe des produits en bois d'Asie pour le marché européen. Sourcing sur mesure, contrôle qualité en usine avant chaque expédition, livraison en Incoterm DAP jusqu'à votre entrepôt.",
-    dims: 'Dimensions standard (mm)',
+    dims: 'Formats disponibles',
     length: 'Longueur', width: 'Largeur', thickness: 'Épaisseur',
-    species: 'Essence', quality: 'Qualité', structure: 'Structure', finish: 'Finitions',
+    species: 'Matière', quality: 'Caractéristiques', structure: 'Structure', finish: 'Finitions', options: 'Options',
     uses: 'Utilisations',
     onRequest: 'Autres dimensions et formats spéciaux sur demande.',
     services: 'Nos services',
@@ -59,12 +59,12 @@ const T = {
   },
   en: {
     title: 'Product catalogue',
-    sub: 'Panels · Flooring · Decking · Veneer · Cladding',
+    sub: 'Panels · Flooring · Decking · Cladding · Panelling · Skirting',
     intro:
       'Sunikai imports Asian wood products for the European market. Tailored sourcing, in-factory quality control before every shipment, DAP delivery to your warehouse.',
-    dims: 'Standard dimensions (mm)',
+    dims: 'Available sizes',
     length: 'Length', width: 'Width', thickness: 'Thickness',
-    species: 'Species', quality: 'Grade', structure: 'Construction', finish: 'Finishes',
+    species: 'Material', quality: 'Key features', structure: 'Construction', finish: 'Finishes', options: 'Options',
     uses: 'Applications',
     onRequest: 'Other dimensions and special formats on request.',
     services: 'Our services',
@@ -91,17 +91,15 @@ function catalogueHtml(lang) {
   <p class="intro">${esc(L(p.intro, lang))}</p>
   <div class="cols">
     <table class="specs">
-      <tr><th>${esc(t.species)}</th><td>${esc(L(p.specs.species, lang))}</td></tr>
-      <tr><th>${esc(t.quality)}</th><td>${esc(L(p.specs.quality, lang))}</td></tr>
-      <tr><th>${esc(t.structure)}</th><td>${esc(L(p.specs.structure, lang))}</td></tr>
-      <tr><th>${esc(t.finish)}</th><td>${esc(L(p.specs.finish, lang))}</td></tr>
+      <tr><th>${esc(t.species)}</th><td>${esc(L(p.material, lang))}</td></tr>
+      <tr><th>${esc(t.quality)}</th><td>${esc((p.features || []).map((f) => L(f, lang)).join(' · '))}</td></tr>
+      ${(p.finishes || []).length ? `<tr><th>${esc(t.finish)}</th><td>${esc(p.finishes.map((f) => L(f, lang)).join(' · '))}</td></tr>` : ''}
+      ${(p.options || []).length ? `<tr><th>${esc(t.options)}</th><td>${esc(p.options.map((o) => L(o, lang)).join(' · '))}</td></tr>` : ''}
     </table>
     <div>
       <h3>${esc(t.dims)}</h3>
       <table class="dims">
-        <tr><th>${esc(t.length)}</th><td>${esc(p.dims.length)}</td></tr>
-        <tr><th>${esc(t.width)}</th><td>${esc(p.dims.width)}</td></tr>
-        <tr><th>${esc(t.thickness)}</th><td>${esc(p.dims.thickness)}</td></tr>
+        ${(p.sizes || []).map((g) => `<tr><th>${esc(L(g.label, lang))}</th><td>${esc(g.values.map((v) => L(v, lang)).join(' · ') + (g.unit ? ' ' + g.unit : ''))}${g.note ? `<br><small>${esc(L(g.note, lang))}</small>` : ''}</td></tr>`).join('')}
       </table>
       <h3>${esc(t.uses)}</h3>
       <ul>${L(p.uses, lang).map((x) => `<li>${esc(x)}</li>`).join('')}</ul>
