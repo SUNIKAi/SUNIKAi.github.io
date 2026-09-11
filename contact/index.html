@@ -65,11 +65,12 @@
   <div class="wrap contact-grid">
     <div class="form-card">
       <h2>Demande de devis</h2>
-      <p class="alert">Formulaire non encore configuré — écrivez-nous à vincent@sunikai.com.</p>
-      <form id="quoteForm" action="" method="POST" novalidate>
-        <input type="hidden" name="_subject" value="Sunikai — Demande de devis">
-        <input type="hidden" name="_language" value="fr">
-        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp">
+      
+      <form id="quoteForm" action="https://api.web3forms.com/submit" method="POST" novalidate>
+        <input type="hidden" name="access_key" value="ecd74eee-01b9-4a36-accf-1c29ab6907ff">
+        <input type="hidden" name="subject" value="Sunikai — Demande de devis (FR)">
+        <input type="hidden" name="from_name" value="Site sunikai.com">
+        <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp">
         <div class="field-row">
           
       <p class="field">
@@ -132,7 +133,7 @@
           <label for="f-consent">J'accepte que ces informations soient utilisées pour me recontacter.</label>
         </p>
         <p class="form-actions">
-          <button class="btn btn-amber" type="submit" disabled title="Formulaire non encore configuré — écrivez-nous à vincent@sunikai.com.">Envoyer ma demande</button>
+          <button class="btn btn-amber" type="submit">Envoyer ma demande</button>
         </p>
         <p class="form-status" id="formStatus" role="status" aria-live="polite"
            data-success="Merci, votre demande a bien été envoyée. Nous vous répondons sous 48 h ouvrées." data-error="L'envoi a échoué. Écrivez-nous directement à vincent@sunikai.com."></p>

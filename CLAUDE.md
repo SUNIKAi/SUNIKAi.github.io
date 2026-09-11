@@ -92,9 +92,12 @@ Google Fonts.
 
 ## État / reste à faire
 
-- Formulaire de contact : `formEndpoint` vaut encore `A_CONFIGURER` dans
-  `content/site.json` → bandeau affiché, bouton d'envoi désactivé. Le champ est
-  volontairement neutre (Web3Forms, Formspree, Worker maison… au choix).
+- **Formulaire de devis actif via Web3Forms** (2026-09-11) : `formEndpoint` =
+  `https://api.web3forms.com/submit`, `formAccessKey` = clé du compte
+  `vincent@sunikai.com` (clé publique par conception, OK dans le dépôt).
+  Champs cachés Web3Forms : `access_key`, `subject`, `from_name`, honeypot
+  `botcheck`. Si `formAccessKey` est vide, build.js retombe sur les champs
+  style Formspree (`_subject`, `_gotcha`).
 - ⚠️ Cloudflare Email Routing prend la main sur les MX : ne jamais l'activer sur
   `sunikai.com` sans vérifier l'impact sur Google Workspace.
 - Mentions légales incomplètes (forme juridique, RCS, TVA) — voir `legalPage()`.

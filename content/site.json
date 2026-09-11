@@ -8,7 +8,8 @@
     "email": "vincent@sunikai.com",
     "logo": "/assets/img/logo-sunikai.jpg"
   },
-  "formEndpoint": "A_CONFIGURER",
+  "formEndpoint": "https://api.web3forms.com/submit",
+  "formAccessKey": "ecd74eee-01b9-4a36-accf-1c29ab6907ff",
   "contacts": [
     {
       "name": "Frédéric Gachon",

@@ -798,9 +798,14 @@ ${pageHead(site.brand.tagline, t.contact.title, t.contact.lead)}
       <h2>${esc(t.contact.formTitle)}</h2>
       ${configured ? '' : `<p class="alert">${esc(t.contact.notConfigured)}</p>`}
       <form id="quoteForm" action="${esc(configured ? site.formEndpoint : '')}" method="POST" novalidate>
-        <input type="hidden" name="_subject" value="Sunikai — ${esc(t.contact.formTitle)}">
+        ${site.formAccessKey
+          ? `<input type="hidden" name="access_key" value="${esc(site.formAccessKey)}">
+        <input type="hidden" name="subject" value="Sunikai — ${esc(t.contact.formTitle)} (${lang.toUpperCase()})">
+        <input type="hidden" name="from_name" value="Site sunikai.com">
+        <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp">`
+          : `<input type="hidden" name="_subject" value="Sunikai — ${esc(t.contact.formTitle)}">
         <input type="hidden" name="_language" value="${lang}">
-        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp">
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp">`}
         <div class="field-row">
           ${field('name', f.name, 'text', true, ' autocomplete="name"')}
           ${field('company', f.company, 'text', false, ' autocomplete="organization"')}
