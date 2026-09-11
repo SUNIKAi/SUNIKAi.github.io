@@ -209,6 +209,7 @@ function layout({ lang, title, description, canonical, altHref, current, body, i
 <meta property="og:image" content="${ogImage}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#12657A">
+${site.brand.googleSiteVerification ? `<meta name="google-site-verification" content="${esc(site.brand.googleSiteVerification)}">` : ''}
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
