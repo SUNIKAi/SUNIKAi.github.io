@@ -886,8 +886,7 @@ function legalPage(lang) {
     <p>Ce site est édité par Sunikai.</p>
     <h2>Éditeur</h2>
     <p>Sunikai — sourcing, import, export de produits en bois.<br>
-    Contact : <a href="mailto:${site.brand.email}">${site.brand.email}</a><br>
-    <em>À compléter : forme juridique, capital, siège social, RCS, numéro de TVA intracommunautaire, directeur de la publication.</em></p>
+    Contact : <a href="mailto:${site.brand.email}">${site.brand.email}</a></p>
     <h2>Hébergement</h2>
     <p>GitHub Pages — GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</p>
     <h2>Données personnelles</h2>
@@ -900,8 +899,7 @@ function legalPage(lang) {
     <p>This website is published by Sunikai.</p>
     <h2>Publisher</h2>
     <p>Sunikai — sourcing, import and export of wood products.<br>
-    Contact: <a href="mailto:${site.brand.email}">${site.brand.email}</a><br>
-    <em>To be completed: legal form, share capital, registered office, company number, VAT number, publication director.</em></p>
+    Contact: <a href="mailto:${site.brand.email}">${site.brand.email}</a></p>
     <h2>Hosting</h2>
     <p>GitHub Pages — GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA.</p>
     <h2>Personal data</h2>

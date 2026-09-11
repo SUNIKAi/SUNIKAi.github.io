@@ -100,7 +100,10 @@ Google Fonts.
   style Formspree (`_subject`, `_gotcha`).
 - ⚠️ Cloudflare Email Routing prend la main sur les MX : ne jamais l'activer sur
   `sunikai.com` sans vérifier l'impact sur Google Workspace.
-- Mentions légales incomplètes (forme juridique, RCS, TVA) — voir `legalPage()`.
+- Mentions légales : ligne « À compléter » retirée (2026-09-11). Société basée
+  à Hong Kong → pas de RCS/TVA français. Page conservée pour la section
+  « Données personnelles » (formulaire, clients UE). Ne pas mentionner Hong
+  Kong sur le site sans demande explicite du user.
 - **EN LIGNE sur https://sunikai.com depuis le 2026-09-09.**
   Dépôt `SUNIKAi/SUNIKAi.github.io`, `brand.customDomainActive` = `true`,
   CNAME généré. 30/30 URLs en 200, certificat HTTPS valide, `www` redirige
