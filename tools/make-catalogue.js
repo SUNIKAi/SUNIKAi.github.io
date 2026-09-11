@@ -28,6 +28,12 @@ const pages = read('pages.json');
 const esc = (s = '') =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const L = (o, lang) => (o && typeof o === 'object' && !Array.isArray(o) ? o[lang] : o);
+/** Joint les valeurs d'un groupe de formats : « / » si une valeur contient déjà « · ». */
+const joinValues = (values, lang) => {
+  const vs = values.map((v) => L(v, lang));
+  return vs.join(vs.some((v) => v.includes('·')) ? ' / ' : ' · ');
+};
+
 
 /** Chemin file:// absolu — Chrome headless doit pouvoir lire les images. */
 const fileUrl = (webPath) =>
@@ -99,7 +105,7 @@ function catalogueHtml(lang) {
     <div>
       <h3>${esc(t.dims)}</h3>
       <table class="dims">
-        ${(p.sizes || []).map((g) => `<tr><th>${esc(L(g.label, lang))}</th><td>${esc(g.values.map((v) => L(v, lang)).join(' · ') + (g.unit ? ' ' + g.unit : ''))}${g.note ? `<br><small>${esc(L(g.note, lang))}</small>` : ''}</td></tr>`).join('')}
+        ${(p.sizes || []).map((g) => `<tr><th>${esc(L(g.label, lang) + (g.unit ? ' (' + g.unit + ')' : ''))}</th><td>${esc(joinValues(g.values, lang))}${g.note ? `<br><small>${esc(L(g.note, lang))}</small>` : ''}</td></tr>`).join('')}
       </table>
       <h3>${esc(t.uses)}</h3>
       <ul>${L(p.uses, lang).map((x) => `<li>${esc(x)}</li>`).join('')}</ul>

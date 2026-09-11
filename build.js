@@ -71,12 +71,17 @@ function img(src, alt, opts) {
   return `<img src="${src}"${srcset} alt="${esc(alt || '')}"${o.cls ? ` class="${o.cls}"` : ''}${loading} decoding="async">`;
 }
 
+/** Joint les valeurs d'un groupe de formats : « / » si une valeur contient déjà « · ». */
+const joinValues = (values, lang) => {
+  const vs = values.map((v) => L(v, lang));
+  return vs.join(vs.some((v) => v.includes('·')) ? ' / ' : ' · ');
+};
+
 /** Ligne courte des cartes produit : premier groupe de formats. */
 function sizesSummary(p, lang) {
   const g = (p.sizes || [])[0];
   if (!g) return '';
-  const vals = g.values.map((v) => L(v, lang)).join(' · ');
-  return `<strong>${esc(L(g.label, lang))}</strong> ${esc(vals)}${g.unit ? ' ' + esc(g.unit) : ''}`;
+  return `<strong>${esc(L(g.label, lang))}${g.unit ? ' (' + esc(g.unit) + ')' : ''}</strong> ${esc(joinValues(g.values, lang))}`;
 }
 
 /** Bloc « formats / finitions / options » en pastilles, sur la fiche produit. */
@@ -542,7 +547,7 @@ function productPage(p, lang) {
       <dl>
         ${specRow(t.products.material, L(p.material, lang))}
         ${specRow(t.products.features, (p.features || []).map((f) => L(f, lang)).join(' · '))}
-        ${(p.sizes || []).map((g) => specRow(L(g.label, lang), g.values.map((v) => L(v, lang)).join(' · ') + (g.unit ? ' ' + g.unit : ''))).join('\n        ')}
+        ${(p.sizes || []).map((g) => specRow(L(g.label, lang) + (g.unit ? ' (' + g.unit + ')' : ''), joinValues(g.values, lang))).join('\n        ')}
         ${specRow(t.products.finishes, (p.finishes || []).map((f) => L(f, lang)).join(' · '))}
         ${specRow(t.products.options, (p.options || []).map((o) => L(o, lang)).join(' · '))}
       </dl>

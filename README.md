@@ -26,7 +26,7 @@ node build.js
 sunikai-site/
 ├── content/                  ← LE CONTENU (c'est ici qu'on travaille)
 │   ├── site.json             textes d'interface, contacts, tous les libellés FR/EN
-│   ├── products.json         les 11 produits (specs, dimensions, descriptions)
+│   ├── products.json         les produits (formats, finitions, options, textes)
 │   ├── pages.json            services, arguments « pourquoi nous », à propos, chiffres
 │   └── news.json             articles d'actualité
 │
@@ -66,8 +66,11 @@ Chaque texte existe en deux versions :
 1. Déposer la photo dans `assets/img/products/mon-produit.jpg`
 2. Lancer `python tools/optimize-images.py` (crée la version allégée + la variante `-sm`)
 3. Copier un bloc existant dans `content/products.json` et l'adapter.
-   Champs obligatoires : `id`, `slug.fr`, `slug.en`, `image`, `category`, `name`,
-   `subtitle`, `specs`, `dims`, `intro`, `body`, `uses`.
+   Champs : `id`, `slug.fr`, `slug.en`, `image`, `category`, `name`, `subtitle`,
+   `material`, `features` (points clés), `sizes` (groupes de formats affichés en
+   pastilles : `label`, `unit`, `values`, `note` facultative), `finishes`
+   (facultatif, avec `swatch` = couleur de la pastille), `options` (facultatif),
+   `intro`, `body`, `uses`.
 4. `node build.js` — la fiche, le catalogue, le menu déroulant du formulaire et
    le plan de site se mettent à jour tout seuls.
 

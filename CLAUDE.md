@@ -45,7 +45,13 @@ node tools/make-catalogue.js     # catalogues PDF FR + EN (via Chrome headless)
   une fonction par type de page.
 - `content/site.json` — libellés d'interface FR/EN, contacts, `formEndpoint`
   (URL du formulaire, prestataire au choix).
-- `content/products.json` — 11 produits, tous les champs en `{fr, en}`.
+- `content/products.json` — 15 produits (catalogue refondu le 2026-09-11 depuis
+  `Desktop/BUSINESS` : fiches techniques 2026, fiche vendeur France, liste de prix
+  bambou). Modèle : `material`, `features[]` (points clés), `sizes[]` (`label`,
+  `unit`, `values[]` en chaînes ou `{fr,en}`, `note`), `finishes[]`
+  (`{fr,en,swatch}`), `options[]`, `intro`, `body`, `uses`. Rendu en pastilles
+  par `optionsBlock()` et `sizesSummary()` dans build.js. Le user veut des
+  **tailles en options** (pas un format unique figé).
 - `content/pages.json` — services, arguments « pourquoi nous », à propos, chiffres.
 - `content/news.json` — articles ; `body` accepte du HTML simple.
 - `assets/css/style.css` — feuille unique, tokens CSS en `:root`.
@@ -132,6 +138,13 @@ Google Fonts.
 
 ## Historique
 
+- **2026-09-11 — refonte du catalogue.** 15 produits, formats en pastilles,
+  bambou vertical en 2 produits (naturel / caramel), parquets hévéa fusionnés,
+  parquets bambou fusionnés, terrasse réversible + GRAD fusionnées, 3 plinthes.
+  Retirés : parquet acacia, placage bambou, panneau bambou noir. **Non publiés
+  car sources contradictoires** : matière des plinthes (MDF ou paulownia) et
+  durée de garantie terrasse (20 ou 25 ans). Photo de la lame box chevaux
+  provisoire (bambou densifié). Ne jamais publier prix, clients ni fournisseurs.
 - **2026-09-09 — mise en ligne.** Dépôt `SUNIKAi.github.io` créé (nom imposé :
   les liens du site sont absolus, un dépôt projet servi sur un sous-chemin
   casserait tout). CNAME rendu conditionnel. Site vérifié en production.
