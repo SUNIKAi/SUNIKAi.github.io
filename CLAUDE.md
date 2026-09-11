@@ -111,6 +111,13 @@ Google Fonts.
   Squarespace » a été supprimé.
 - Piège observé : le panneau Squarespace met ~20 min à publier ses
   changements vers les serveurs de noms. Ne pas conclure à un échec avant.
+- **Google Search Console validée** (2026-09-11) pour la propriété
+  `https://sunikai.com/`, compte `v.bergeron000@gmail.com`, méthode balise
+  HTML. ⚠️ **Ne jamais vider `brand.googleSiteVerification`** dans
+  `content/site.json` : sans la balise, Google retire la validation.
+  Astuce : le dialogue « Ajouter un site Web » de GSC se ferme tout seul en
+  automatisation ; passer par l'URL directe
+  `search-console/ownership?resource_id=https%3A%2F%2Fsunikai.com%2F`.
 - Le user pousse avec **GitHub Desktop** (ses identifiants y sont stockés).
   La ligne de commande n'a pas d'identifiants GitHub sur cette machine :
   ne pas tenter `git push` depuis une session Claude, lui demander de pousser.
