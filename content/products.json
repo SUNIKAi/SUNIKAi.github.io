@@ -539,9 +539,10 @@
     "category": { "fr": "Finitions intérieures", "en": "Interior finishing" },
     "name": { "fr": "Plinthe Réversible", "en": "Reversible Skirting Board" },
     "subtitle": { "fr": "Gesso + finition satinée · Prête à poser", "en": "Gesso + satin finish · Ready to install" },
-    "material": { "fr": "Plinthe apprêtée Gesso", "en": "Gesso-primed skirting" },
+    "material": { "fr": "Paulownia massif", "en": "Solid paulownia" },
     "features": [
       { "fr": "Profil réversible", "en": "Reversible profile" },
+      { "fr": "Paulownia massif", "en": "Solid paulownia" },
       { "fr": "Gesso + finition satinée", "en": "Gesso + satin finish" },
       { "fr": "Prête à poser", "en": "Ready to install" }
     ],
@@ -552,8 +553,8 @@
     "finishes": [],
     "options": [],
     "intro": {
-      "fr": "Une plinthe à profil réversible, apprêtée Gesso avec finition satinée : elle se pose directement, sans peinture.",
-      "en": "A reversible-profile skirting board, Gesso-primed with a satin finish: it installs straight away, no painting needed."
+      "fr": "Une plinthe en paulownia massif à profil réversible, apprêtée Gesso avec finition satinée : elle se pose directement, sans peinture.",
+      "en": "A solid paulownia skirting board with a reversible profile, Gesso-primed with a satin finish: it installs straight away, no painting needed."
     },
     "body": {
       "fr": [
@@ -579,9 +580,10 @@
     "category": { "fr": "Finitions intérieures", "en": "Interior finishing" },
     "name": { "fr": "Plinthe Moulurée", "en": "Moulded Skirting Board" },
     "subtitle": { "fr": "Gesso + finition satinée · Prête à poser", "en": "Gesso + satin finish · Ready to install" },
-    "material": { "fr": "Plinthe apprêtée Gesso", "en": "Gesso-primed skirting" },
+    "material": { "fr": "Paulownia massif", "en": "Solid paulownia" },
     "features": [
       { "fr": "Profil mouluré", "en": "Moulded profile" },
+      { "fr": "Paulownia massif", "en": "Solid paulownia" },
       { "fr": "Gesso + finition satinée", "en": "Gesso + satin finish" },
       { "fr": "Prête à poser", "en": "Ready to install" }
     ],
@@ -592,8 +594,8 @@
     "finishes": [],
     "options": [],
     "intro": {
-      "fr": "Une plinthe au profil mouluré, pour une finition plus classique, apprêtée Gesso avec finition satinée : prête à poser.",
-      "en": "A moulded-profile skirting board for a more classic finish, Gesso-primed with a satin finish: ready to install."
+      "fr": "Une plinthe en paulownia massif au profil mouluré, pour une finition plus classique, apprêtée Gesso avec finition satinée : prête à poser.",
+      "en": "A solid paulownia skirting board with a moulded profile, for a more classic finish, Gesso-primed with a satin finish: ready to install."
     },
     "body": {
       "fr": [
@@ -619,9 +621,10 @@
     "category": { "fr": "Finitions intérieures", "en": "Interior finishing" },
     "name": { "fr": "Plinthe Recouvrante", "en": "Overlap Skirting Board" },
     "subtitle": { "fr": "Gesso + finition satinée · Prête à poser", "en": "Gesso + satin finish · Ready to install" },
-    "material": { "fr": "Plinthe apprêtée Gesso", "en": "Gesso-primed skirting" },
+    "material": { "fr": "Paulownia massif", "en": "Solid paulownia" },
     "features": [
       { "fr": "Profil recouvrant", "en": "Overlap profile" },
+      { "fr": "Paulownia massif", "en": "Solid paulownia" },
       { "fr": "Gesso + finition satinée", "en": "Gesso + satin finish" },
       { "fr": "Prête à poser", "en": "Ready to install" }
     ],
@@ -632,8 +635,8 @@
     "finishes": [],
     "options": [],
     "intro": {
-      "fr": "Une plinthe large et épaisse, conçue pour recouvrir les anciennes plinthes ou combler des jours importants en pied de mur, sans dépose.",
-      "en": "A wide, thick skirting board designed to cover old skirting or bridge large gaps at the foot of the wall, without removal."
+      "fr": "Une plinthe en paulownia massif, large et épaisse, conçue pour recouvrir les anciennes plinthes ou combler des jours importants en pied de mur, sans dépose.",
+      "en": "A wide, thick solid paulownia skirting board designed to cover old skirting or bridge large gaps at the foot of the wall, without removal."
     },
     "body": {
       "fr": [
