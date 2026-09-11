@@ -102,6 +102,8 @@ Google Fonts.
   Dépôt `SUNIKAi/SUNIKAi.github.io`, `brand.customDomainActive` = `true`,
   CNAME généré. 30/30 URLs en 200, certificat HTTPS valide, `www` redirige
   vers l'apex. `sunikai.github.io` redirige vers `sunikai.com`.
+  **Enforce HTTPS activé** (2026-09-11) : http:// et www redirigent en 301
+  vers https://sunikai.com.
 - **Zone DNS finale** (Squarespace, NS Google Cloud DNS) : 4 A + 4 AAAA vers
   GitHub Pages sur `@`, CNAME `www` -> `sunikai.github.io`, plus les 3
   enregistrements Google Workspace laissés intacts (MX `smtp.google.com`,
