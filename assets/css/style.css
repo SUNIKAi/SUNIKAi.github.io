@@ -597,14 +597,11 @@ ul.plain li { margin-bottom: 10px; }
   font-family: var(--font-display); font-weight: 600; font-size: .9rem; line-height: 1.2;
   color: var(--ink); background: var(--paper);
 }
-.pill-swatch { width: 15px; height: 15px; border-radius: 50%; border: 1px solid rgba(0,0,0,.18); flex: none; }
 .pill-option { border-style: dashed; color: var(--teal-800); }
 .pill-option::before { content: '+'; font-weight: 800; color: var(--amber-600); }
 .opt-note { font-size: .84rem; color: var(--muted); margin: 0; }
 
 .card-sizes { font-size: .84rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; margin: 0; }
 .card-sizes strong { color: var(--ink); font-weight: 600; }
-.card-swatches { display: inline-flex; gap: 4px; vertical-align: middle; margin-left: 6px; }
-.card-swatches i { width: 11px; height: 11px; border-radius: 50%; border: 1px solid rgba(0,0,0,.18); display: inline-block; }
 
 .mini-title + .opt-block { margin-top: 0; }

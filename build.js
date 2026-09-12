@@ -99,7 +99,7 @@ function optionsBlock(p, lang, t) {
     rows.push(`
         <div class="opt-row">
           <p class="opt-label">${esc(t.products.finishes)}</p>
-          <ul class="pills">${p.finishes.map((f) => `<li class="pill">${f.swatch ? `<span class="pill-swatch" style="background:${f.swatch}"></span>` : ''}${esc(L(f, lang))}</li>`).join('')}</ul>
+          <ul class="pills">${p.finishes.map((f) => `<li class="pill">${esc(L(f, lang))}</li>`).join('')}</ul>
         </div>`);
   }
   if ((p.options || []).length) {
@@ -157,7 +157,7 @@ function header(lang, current, altHref) {
       <span></span><span></span><span></span>
     </button>
     <nav class="site-nav" id="siteNav">
-      ${['products', 'services', 'about', 'news'].map(link).join('\n      ')}
+      ${['products', 'services', 'about'].map(link).join('\n      ')}
       <div class="nav-tail">
         <a class="lang-switch" href="${altHref}" hreflang="${other}" lang="${other}">${esc(site.i18n[other].langName)}</a>
         <a class="btn btn-amber btn-sm" href="${u('contact', lang)}">${esc(t.cta.quote)}</a>
@@ -188,7 +188,7 @@ function footer(lang) {
     <div>
       <h3>${esc(t.footer.navTitle)}</h3>
       <ul class="plain">
-        ${['home', 'products', 'services', 'about', 'news', 'contact']
+        ${['home', 'products', 'services', 'about', 'contact']
           .map((k) => `<li><a href="${u(k, lang)}">${esc(t.nav[k])}</a></li>`)
           .join('\n        ')}
       </ul>
@@ -291,7 +291,7 @@ function productCard(p, lang, t) {
   <div class="card-body">
     <h3>${esc(L(p.name, lang))}</h3>
     <p class="card-sub">${esc(L(p.subtitle, lang))}</p>
-    <p class="card-sizes">${sizesSummary(p, lang)}${(p.finishes || []).some((f) => f.swatch) ? `<span class="card-swatches" aria-hidden="true">${p.finishes.filter((f) => f.swatch).map((f) => `<i style="background:${f.swatch}"></i>`).join('')}</span>` : ''}</p>
+    <p class="card-sizes">${sizesSummary(p, lang)}</p>
     <span class="card-link">${esc(t.cta.seeProduct)} ${icon('arrow')}</span>
   </div>
 </a>`;
