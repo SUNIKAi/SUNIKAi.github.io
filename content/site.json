@@ -59,8 +59,8 @@
         "learnMore": "En savoir plus"
       },
       "home": {
-        "heroTitle": "Le bois d'Asie,<br>livré chez vous<br>sans mauvaise surprise.",
-        "heroLead": "Sunikai est le spécialiste de l'importation de produits en bois d'Asie pour le marché européen. Sourcing sur mesure, contrôle qualité en usine avant chaque expédition, livraison DAP jusqu'à votre entrepôt.",
+        "heroTitle": "Votre partenaire<br>d'approvisionnement<br>en bois d'Asie.",
+        "heroLead": "Sunikai est spécialisé dans le sourcing et l'importation de produits en bois d'Asie pour le marché européen. Nous sélectionnons les usines, vérifions la conformité de chaque production et assurons la livraison jusqu'à votre entrepôt.",
         "trust": [
           "Contrôle qualité sur site, avant chaque expédition",
           "Livraison en Incoterm DAP à votre entrepôt",
@@ -68,9 +68,9 @@
           "Un interlocuteur direct, du devis à la livraison"
         ],
         "servicesTitle": "Ce que nous prenons en charge",
-        "servicesLead": "De la sélection de l'usine à la palette déchargée chez vous, vous n'avez qu'un seul interlocuteur.",
+        "servicesLead": "De la sélection de l'usine à la livraison dans vos locaux, nous assurons l'ensemble de la chaîne avec un interlocuteur unique.",
         "productsTitle": "Nos produits",
-        "productsLead": "Panneaux, parquets, terrasses, bardages, lambris et plinthes en hévéa, acacia, bambou et paulownia. Chaque produit existe en plusieurs formats et finitions ; le sur-mesure est étudié au cas par cas.",
+        "productsLead": "Panneaux, parquets, terrasses, bardages, lambris et plinthes en hévéa, acacia, bambou et paulownia. Chaque produit est disponible en plusieurs formats et finitions ; les demandes spécifiques sont étudiées au cas par cas.",
         "whyTitle": "Pourquoi travailler avec Sunikai",
         "figuresTitle": "En bref"
       },
@@ -98,15 +98,15 @@
       },
       "services": {
         "title": "Nos services",
-        "lead": "Trois métiers, une seule chaîne : nous cherchons le bon produit au bon prix, nous vérifions qu'il est conforme avant qu'il quitte l'usine, et nous le livrons à votre entreprise."
+        "lead": "Trois métiers complémentaires : identifier le produit et le fournisseur adaptés à votre besoin, vérifier la conformité de la production avant expédition, et assurer l'acheminement jusqu'à vos locaux."
       },
       "about": {
         "title": "À propos de Sunikai",
-        "lead": "Un importateur à taille humaine, présent des deux côtés de la chaîne."
+        "lead": "Un importateur spécialisé, présent en Asie comme en Europe."
       },
       "news": {
         "title": "Actualités",
-        "lead": "Marché, matériaux, réglementation : ce qu'il faut savoir quand on importe du bois d'Asie.",
+        "lead": "Marché, matériaux et réglementation : l'information utile à l'importation de produits en bois d'Asie.",
         "readMore": "Lire l'article",
         "empty": "Les premiers articles arrivent bientôt.",
         "backToNews": "Retour aux actualités"
@@ -172,8 +172,8 @@
         "learnMore": "Learn more"
       },
       "home": {
-        "heroTitle": "Asian timber,<br>delivered to your door,<br>with no surprises.",
-        "heroLead": "Sunikai imports Asian wood products for the European market. Tailored sourcing, in-factory quality control before every shipment, DAP delivery straight to your warehouse.",
+        "heroTitle": "Your sourcing partner<br>for Asian wood<br>products.",
+        "heroLead": "Sunikai specialises in the sourcing and import of Asian wood products for the European market. We select the mills, verify every production run and handle delivery to your warehouse.",
         "trust": [
           "On-site quality control before every shipment",
           "DAP delivery to your warehouse",
@@ -181,9 +181,9 @@
           "One direct contact, from quote to delivery"
         ],
         "servicesTitle": "What we take care of",
-        "servicesLead": "From picking the mill to the pallet unloaded at your door, you deal with one team only.",
+        "servicesLead": "From mill selection through to delivery at your premises, we manage the entire chain with a single point of contact.",
         "productsTitle": "Our products",
-        "productsLead": "Panels, flooring, decking, cladding, wall panelling and skirting in rubberwood, acacia, bamboo and paulownia. Every product comes in several sizes and finishes; made-to-measure is quoted case by case.",
+        "productsLead": "Panels, flooring, decking, cladding, wall panelling and skirting in rubberwood, acacia, bamboo and paulownia. Every product is available in several sizes and finishes; specific requirements are studied case by case.",
         "whyTitle": "Why work with Sunikai",
         "figuresTitle": "At a glance"
       },
@@ -211,15 +211,15 @@
       },
       "services": {
         "title": "Our services",
-        "lead": "Three trades, one chain: we find the right product at the right price, we check that it complies before it leaves the mill, and we deliver it to your company."
+        "lead": "Three complementary disciplines: identifying the product and the supplier that match your requirement, verifying the compliance of each production run before shipment, and handling delivery to your premises."
       },
       "about": {
         "title": "About Sunikai",
-        "lead": "A human-sized importer, present at both ends of the chain."
+        "lead": "A specialist importer, present in both Asia and Europe."
       },
       "news": {
         "title": "News",
-        "lead": "Market, materials, regulation: what you need to know when importing timber from Asia.",
+        "lead": "Market, materials and regulation: practical information on importing wood products from Asia.",
         "readMore": "Read the article",
         "empty": "First articles coming soon.",
         "backToNews": "Back to news"

@@ -8,19 +8,19 @@
         "en": "Tailored sourcing"
       },
       "short": {
-        "fr": "Notre réseau de partenaires asiatiques nous permet de créer des solutions adaptées aux besoins précis de votre marché.",
-        "en": "Our network of Asian partners lets us build solutions matched to the precise needs of your market."
+        "fr": "Notre réseau d'usines partenaires en Asie nous permet de répondre précisément à votre cahier des charges.",
+        "en": "Our network of partner mills in Asia allows us to respond precisely to your specification."
       },
       "body": {
         "fr": [
           "Vous nous transmettez votre cahier des charges : essence, dimensions, qualité, volume annuel et budget visé. Nous identifions ensuite l'usine capable de le produire dans ces conditions, et nous vous présentons des échantillons avant tout engagement.",
-          "Notre présence en Asie fait la différence. Nous visitons les sites de production, nous évaluons les capacités et les délais réels, et nous savons à quelle usine confier chaque type de fabrication.",
-          "Votre projet sort de notre gamme standard ? C'est précisément notre métier : nous développons le produit avec vous, du premier échantillon à la mise en production."
+          "Notre implantation en Asie est déterminante : nous visitons les sites de production, évaluons les capacités et les délais réels, et savons à quelle usine confier chaque type de fabrication.",
+          "Lorsqu'un projet sort de notre gamme standard, nous développons le produit avec vous, du premier échantillon jusqu'à la mise en production."
         ],
         "en": [
           "You send us your specification: species, dimensions, grade, annual volume and target budget. We then identify the mill able to produce it under those conditions, and submit samples to you before any commitment.",
-          "Our presence in Asia makes the difference. We visit the production sites, assess real capacity and actual lead times, and know which mill to entrust with each type of work.",
-          "Is your project outside our standard range? That is precisely our business: we develop the product with you, from the first sample through to production."
+          "Our presence in Asia is decisive: we visit the production sites, assess real capacity and actual lead times, and know which mill to entrust with each type of work.",
+          "Where a project falls outside our standard range, we develop the product with you, from the first sample through to production."
         ]
       },
       "points": {
@@ -53,12 +53,12 @@
         "fr": [
           "Le contrôle qualité est au centre de notre métier. Une non-conformité constatée à l'arrivée en Europe se règle difficilement : la marchandise est payée, l'usine se trouve à 10 000 kilomètres et la discussion prend des semaines, pendant lesquelles vous ne pouvez pas vendre.",
           "Nous intervenons donc en amont, dans l'usine, avant le chargement du conteneur : dimensions, taux d'humidité, qualité de collage, tri visuel, conditionnement et marquage. Vous recevez un rapport photo détaillé et vous validez le départ en connaissance de cause.",
-          "Cette étape est comprise dans nos prix. Elle n'est pas une option : c'est ce qui distingue notre offre d'un achat en direct."
+          "Cette étape est comprise dans nos prix et ne constitue pas une option : elle est ce qui distingue notre offre d'un achat en direct."
         ],
         "en": [
           "Quality control sits at the centre of what we do. A non-conformity found on arrival in Europe is difficult to resolve: the goods are paid for, the mill is 10,000 kilometres away and the discussion takes weeks, during which you cannot sell.",
           "We therefore inspect upstream, at the mill, before the container is loaded: dimensions, moisture content, glue-line quality, visual sorting, packing and marking. You receive a detailed photo report and approve the shipment in full knowledge of the facts.",
-          "This step is included in our prices. It is not an option: it is what sets our offer apart from buying direct."
+          "This step is included in our prices and is not an option: it is what sets our offer apart from buying direct."
         ]
       },
       "points": {
@@ -118,12 +118,12 @@
   "why": [
     {
       "title": {
-        "fr": "Présents des deux côtés",
-        "en": "Present at both ends"
+        "fr": "Une présence en Asie et en Europe",
+        "en": "A presence in Asia and in Europe"
       },
       "text": {
-        "fr": "Une équipe en Asie, au contact des usines, et un interlocuteur commercial en France. Personne ne joue au téléphone arabe entre vous et la production.",
-        "en": "A team in Asia, in daily contact with the mills, and a commercial contact in France. Nobody plays telephone between you and the production line."
+        "fr": "Une équipe sur place au contact des usines et un interlocuteur commercial en Europe. L'information circule directement, sans intermédiaire entre vous et la production.",
+        "en": "A team on site in daily contact with the mills, and a commercial contact in Europe. Information flows directly, with no intermediary between you and the production line."
       }
     },
     {
@@ -132,18 +132,18 @@
         "en": "Quality control is included"
       },
       "text": {
-        "fr": "Chaque conteneur est contrôlé en usine avant chargement, avec rapport photo. C'est le seul moment où un problème se règle sans vous coûter d'argent.",
-        "en": "Every container is inspected in the mill before loading, with a photo report. That is the only moment when a problem can be fixed without costing you money."
+        "fr": "Chaque conteneur est contrôlé en usine avant chargement et fait l'objet d'un rapport photographique. C'est à ce stade qu'une non-conformité peut encore être corrigée sans surcoût.",
+        "en": "Every container is inspected at the mill before loading and documented in a photo report. That is the stage at which a non-conformity can still be corrected at no additional cost."
       }
     },
     {
       "title": {
-        "fr": "Un prix rendu, pas un prix départ usine",
-        "en": "A delivered price, not an ex-works price"
+        "fr": "Des prix rendus entrepôt",
+        "en": "Delivered prices, not ex-works prices"
       },
       "text": {
-        "fr": "Nos cotations sont en DAP : le chiffre que vous recevez est celui de la marchandise déchargée chez vous. Vous pouvez construire votre marge dessus tout de suite.",
-        "en": "Our quotations are DAP: the figure you receive is the goods unloaded at your place. You can build your margin on it straight away."
+        "fr": "Nos cotations sont établies en DAP : le montant annoncé correspond à la marchandise livrée dans vos locaux, ce qui vous permet d'établir votre marge dès la commande.",
+        "en": "Our quotations are issued DAP: the figure quoted covers the goods delivered to your premises, allowing you to set your margin from the moment you order."
       }
     },
     {
@@ -162,18 +162,18 @@
         "en": "Plantation species"
       },
       "text": {
-        "fr": "Hévéa en fin de production de latex, acacia et bambou de plantation à cycle court : des ressources renouvelables, pas du bois de forêt primaire.",
-        "en": "Rubberwood at the end of its latex life, plantation acacia and short-cycle bamboo: renewable resources, not primary forest timber."
+        "fr": "Hévéa en fin de production de latex, acacia et bambou de plantation à cycle court : des ressources renouvelables, issues de plantations et non de forêts primaires.",
+        "en": "Rubberwood at the end of its latex life, plantation acacia and short-cycle bamboo: renewable resources from plantations rather than primary forest."
       }
     },
     {
       "title": {
-        "fr": "Du sur-mesure, pas un catalogue",
-        "en": "Bespoke, not a catalogue"
+        "fr": "Des produits adaptés à votre besoin",
+        "en": "Products matched to your requirement"
       },
       "text": {
-        "fr": "Les dimensions publiées sont nos standards. Un format, une qualité ou une finition différente ? C'est exactement le travail de sourcing.",
-        "en": "The published dimensions are our standards. A different format, grade or finish? That is precisely what sourcing is for."
+        "fr": "Les dimensions publiées correspondent à nos standards. Un format, une qualité ou une finition spécifique relève de notre activité de sourcing et fait l'objet d'une étude dédiée.",
+        "en": "The published dimensions are our standards. A different format, grade or finish falls within our sourcing activity and is studied case by case."
       }
     }
   ],
@@ -181,14 +181,14 @@
     "body": {
       "fr": [
         "Sunikai importe des produits en bois d'Asie pour le marché européen : panneaux lamellés-collés, parquets, terrasses, bardages, lambris et plinthes, en hévéa, acacia, bambou et paulownia.",
-        "Notre modèle est simple. Nous sommes présents en Asie, au contact direct des usines : nous savons ce que chacune sait produire, à quel prix et dans quels délais. Et nous sommes présents en Europe, au contact de vos contraintes : normes, saisonnalité, exigences de vos propres clients.",
-        "Entre les deux, nous prenons en charge ce qui coince habituellement quand on importe en direct — la sélection de l'usine, le contrôle de la marchandise avant qu'elle quitte le pays, la logistique et les formalités. Vous achetez un produit rendu chez vous, à un prix connu à l'avance.",
+        "Notre organisation repose sur une double présence. En Asie, au contact direct des usines : nous savons ce que chacune est en mesure de produire, à quel prix et dans quels délais. En Europe, au contact de vos contraintes : normes, saisonnalité et exigences de vos propres clients.",
+        "Entre les deux, nous prenons en charge les étapes les plus délicates d'une importation en direct : la sélection de l'usine, le contrôle de la marchandise avant son départ, la logistique et les formalités douanières. Vous achetez un produit rendu dans vos locaux, à un prix connu à l'avance.",
         "Nous travaillons avec des négoces, des industriels de l'agencement, des fabricants de mobilier et des distributeurs de matériaux, sur des volumes allant du conteneur unique au flux régulier."
       ],
       "en": [
         "Sunikai imports Asian wood products for the European market: edge-glued panels, flooring, decking, cladding, wall panelling and skirting, in rubberwood, acacia, bamboo and paulownia.",
-        "Our model is simple. We are present in Asia, in direct contact with the mills: we know what each one can produce, at what price and within what lead time. And we are present in Europe, close to your constraints: standards, seasonality, the demands of your own customers.",
-        "In between, we take on what usually goes wrong when importing direct — selecting the mill, checking the goods before they leave the country, logistics and formalities. You buy a product delivered to you, at a price known in advance.",
+        "Our organisation rests on a dual presence. In Asia, in direct contact with the mills: we know what each one is able to produce, at what price and within what lead time. In Europe, close to your constraints: standards, seasonality and the requirements of your own customers.",
+        "In between, we handle the most demanding stages of a direct import: selecting the mill, inspecting the goods before departure, logistics and customs formalities. You buy a product delivered to your premises, at a price known in advance.",
         "We work with timber merchants, shopfitting manufacturers, furniture makers and building material distributors, on volumes ranging from a single container to a regular flow."
       ]
     },
