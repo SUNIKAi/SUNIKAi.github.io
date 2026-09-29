@@ -605,3 +605,16 @@ ul.plain li { margin-bottom: 10px; }
 .card-sizes strong { color: var(--ink); font-weight: 600; }
 
 .mini-title + .opt-block { margin-top: 0; }
+
+/* Profils d'un produit a variantes (plinthes) */
+.variant-grid { display: grid; gap: 24px; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); }
+.variant {
+  display: flex; flex-direction: column;
+  background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+.variant-visual { aspect-ratio: 4 / 3; background: var(--teal-050); overflow: hidden; }
+.variant-visual img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.variant-body { padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 12px; }
+.variant-body h3 { margin: 0; font-size: 1.12rem; }
+.variant-body p { margin: 0; font-size: .92rem; color: var(--muted); }

@@ -533,126 +533,76 @@
     }
   },
   {
-    "id": "plinthe-reversible",
-    "slug": { "fr": "plinthe-reversible", "en": "reversible-skirting-board" },
-    "image": "/assets/img/products/plinthe-reversible.jpg",
+    "id": "plinthe",
+    "slug": { "fr": "plinthes", "en": "skirting-boards" },
+    "image": "/assets/img/products/plinthe.jpg",
     "category": { "fr": "Finitions intérieures", "en": "Interior finishing" },
-    "name": { "fr": "Plinthe Réversible", "en": "Reversible Skirting Board" },
-    "subtitle": { "fr": "Gesso + finition satinée · Prête à poser", "en": "Gesso + satin finish · Ready to install" },
+    "name": { "fr": "Plinthes", "en": "Skirting Boards" },
+    "subtitle": { "fr": "Trois profils · Gesso + finition satinée", "en": "Three profiles · Gesso + satin finish" },
     "material": { "fr": "Paulownia massif", "en": "Solid paulownia" },
     "features": [
-      { "fr": "Profil réversible", "en": "Reversible profile" },
+      { "fr": "Trois profils : réversible, mouluré, recouvrant", "en": "Three profiles: reversible, moulded, overlap" },
       { "fr": "Paulownia massif", "en": "Solid paulownia" },
       { "fr": "Gesso + finition satinée", "en": "Gesso + satin finish" },
-      { "fr": "Prête à poser", "en": "Ready to install" }
+      { "fr": "Prêtes à poser", "en": "Ready to install" }
     ],
     "sizes": [
-      { "label": { "fr": "Sections", "en": "Sections" }, "unit": "mm", "values": ["10 × 70", "14 × 80", "14 × 100"] },
-      { "label": { "fr": "Longueur", "en": "Length" }, "unit": "mm", "values": ["2440"] }
+      {
+        "label": { "fr": "Sections", "en": "Sections" },
+        "unit": "mm",
+        "values": ["10 × 70", "14 × 80", "14 × 100", "20 × 110"],
+        "note": { "fr": "La section 20 × 110 mm correspond au profil recouvrant", "en": "The 20 × 110 mm section is the overlap profile" }
+      },
+      {
+        "label": { "fr": "Longueur", "en": "Length" },
+        "unit": "mm",
+        "values": ["2440"]
+      }
     ],
     "finishes": [],
     "options": [],
+    "variants": [
+      {
+        "id": "reversible",
+        "name": { "fr": "Profil réversible", "en": "Reversible profile" },
+        "image": "/assets/img/products/plinthe-reversible.jpg",
+        "sizes": ["10 × 70", "14 × 80", "14 × 100"],
+        "text": { "fr": "Deux faces utilisables : le poseur retient sur place celle qui s'accorde le mieux au décor.", "en": "Two usable faces: on site, the installer selects whichever best suits the interior." }
+      },
+      {
+        "id": "mouluree",
+        "name": { "fr": "Profil mouluré", "en": "Moulded profile" },
+        "image": "/assets/img/products/plinthe-mouluree.jpg",
+        "sizes": ["10 × 70", "14 × 80", "14 × 100"],
+        "text": { "fr": "Une finition traditionnelle, adaptée aux intérieurs classiques comme aux rénovations contemporaines.", "en": "A traditional finish, suited to period interiors as well as contemporary renovations." }
+      },
+      {
+        "id": "recouvrante",
+        "name": { "fr": "Profil recouvrant", "en": "Overlap profile" },
+        "image": "/assets/img/products/plinthe-recouvrante.jpg",
+        "sizes": ["20 × 110"],
+        "text": { "fr": "Une section large qui se pose par-dessus une plinthe existante et masque les défauts en pied de mur, sans dépose.", "en": "A wide section fitted over the existing skirting, hiding defects at the foot of the wall without removal." }
+      }
+    ],
     "intro": {
-      "fr": "Une plinthe en paulownia massif à profil réversible, apprêtée Gesso avec finition satinée : elle se pose directement, sans peinture.",
-      "en": "A solid paulownia skirting board with a reversible profile, Gesso-primed with a satin finish: it installs straight away, no painting needed."
+      "fr": "Une gamme de plinthes en paulownia massif déclinée en trois profils — réversible, mouluré et recouvrant — apprêtées Gesso avec finition satinée appliquée en usine : elles se posent directement, sans peinture.",
+      "en": "A range of solid paulownia skirting boards in three profiles — reversible, moulded and overlap — Gesso-primed with a factory-applied satin finish: they install straight away, with no painting."
     },
     "body": {
       "fr": [
-        "Le profil réversible offre deux faces utilisables : on choisit à la pose celle qui convient le mieux au décor.",
-        "Trois sections, 10 × 70, 14 × 80 et 14 × 100 mm, en longueur de 2440 mm.",
-        "Finition Gesso + satinée appliquée en usine : la plinthe arrive prête à poser, collée ou clouée."
+        "Les trois profils partagent la même matière et la même finition : paulownia massif, apprêt Gesso et laque satinée appliqués en usine. Seul le dessin de la plinthe change, ce qui permet de couvrir l'ensemble des configurations de chantier avec une seule référence fournisseur.",
+        "Les profils réversible et mouluré sont proposés en sections 10 × 70, 14 × 80 et 14 × 100 mm. Le profil recouvrant, en 20 × 110 mm, est destiné à la rénovation : il se pose par-dessus la plinthe existante et évite une dépose. Toutes les longueurs sont de 2440 mm.",
+        "Le paulownia est une essence de plantation légère et stable, qui se cloue et se coupe sans éclat. Livrées prêtes à poser, les plinthes ne demandent ni ponçage ni mise en peinture sur chantier."
       ],
       "en": [
-        "The reversible profile gives two usable faces: the installer picks the one that best suits the interior.",
-        "Three sections, 10 × 70, 14 × 80 and 14 × 100 mm, in 2440 mm lengths.",
-        "Factory-applied Gesso + satin finish: the skirting arrives ready to install, glued or nailed."
+        "The three profiles share the same material and the same finish: solid paulownia, with Gesso primer and satin lacquer applied at the mill. Only the profile itself differs, which makes it possible to cover every site configuration from a single supplier reference.",
+        "The reversible and moulded profiles come in 10 × 70, 14 × 80 and 14 × 100 mm sections. The overlap profile, in 20 × 110 mm, is intended for renovation: it fits over the existing skirting and avoids removal. All lengths are 2440 mm.",
+        "Paulownia is a light, stable plantation species that nails and cuts without splintering. Delivered ready to install, the skirting requires neither sanding nor painting on site."
       ]
     },
     "uses": {
-      "fr": ["Logements neufs", "Rénovation", "Bureaux", "Hôtellerie"],
-      "en": ["New housing", "Renovation", "Offices", "Hospitality"]
-    }
-  },
-  {
-    "id": "plinthe-mouluree",
-    "slug": { "fr": "plinthe-mouluree", "en": "moulded-skirting-board" },
-    "image": "/assets/img/products/plinthe-mouluree.jpg",
-    "category": { "fr": "Finitions intérieures", "en": "Interior finishing" },
-    "name": { "fr": "Plinthe Moulurée", "en": "Moulded Skirting Board" },
-    "subtitle": { "fr": "Gesso + finition satinée · Prête à poser", "en": "Gesso + satin finish · Ready to install" },
-    "material": { "fr": "Paulownia massif", "en": "Solid paulownia" },
-    "features": [
-      { "fr": "Profil mouluré", "en": "Moulded profile" },
-      { "fr": "Paulownia massif", "en": "Solid paulownia" },
-      { "fr": "Gesso + finition satinée", "en": "Gesso + satin finish" },
-      { "fr": "Prête à poser", "en": "Ready to install" }
-    ],
-    "sizes": [
-      { "label": { "fr": "Sections", "en": "Sections" }, "unit": "mm", "values": ["10 × 70", "14 × 80", "14 × 100"] },
-      { "label": { "fr": "Longueur", "en": "Length" }, "unit": "mm", "values": ["2440"] }
-    ],
-    "finishes": [],
-    "options": [],
-    "intro": {
-      "fr": "Une plinthe en paulownia massif au profil mouluré, pour une finition plus classique, apprêtée Gesso avec finition satinée : prête à poser.",
-      "en": "A solid paulownia skirting board with a moulded profile, for a more classic finish, Gesso-primed with a satin finish: ready to install."
-    },
-    "body": {
-      "fr": [
-        "Le profil mouluré apporte une finition soignée et traditionnelle, dans l'esprit des intérieurs haussmanniens comme des rénovations contemporaines.",
-        "Trois sections, 10 × 70, 14 × 80 et 14 × 100 mm, en longueur de 2440 mm.",
-        "Finition Gesso + satinée appliquée en usine : pose collée ou clouée, sans peinture."
-      ],
-      "en": [
-        "The moulded profile brings a careful, traditional finish, suited to period interiors as well as contemporary renovations.",
-        "Three sections, 10 × 70, 14 × 80 and 14 × 100 mm, in 2440 mm lengths.",
-        "Factory-applied Gesso + satin finish: glued or nailed installation, no painting."
-      ]
-    },
-    "uses": {
-      "fr": ["Rénovation", "Logements", "Hôtellerie", "Bureaux"],
-      "en": ["Renovation", "Housing", "Hospitality", "Offices"]
-    }
-  },
-  {
-    "id": "plinthe-recouvrante",
-    "slug": { "fr": "plinthe-recouvrante", "en": "overlap-skirting-board" },
-    "image": "/assets/img/products/plinthe-recouvrante.jpg",
-    "category": { "fr": "Finitions intérieures", "en": "Interior finishing" },
-    "name": { "fr": "Plinthe Recouvrante", "en": "Overlap Skirting Board" },
-    "subtitle": { "fr": "Gesso + finition satinée · Prête à poser", "en": "Gesso + satin finish · Ready to install" },
-    "material": { "fr": "Paulownia massif", "en": "Solid paulownia" },
-    "features": [
-      { "fr": "Profil recouvrant", "en": "Overlap profile" },
-      { "fr": "Paulownia massif", "en": "Solid paulownia" },
-      { "fr": "Gesso + finition satinée", "en": "Gesso + satin finish" },
-      { "fr": "Prête à poser", "en": "Ready to install" }
-    ],
-    "sizes": [
-      { "label": { "fr": "Section", "en": "Section" }, "unit": "mm", "values": ["20 × 110"] },
-      { "label": { "fr": "Longueur", "en": "Length" }, "unit": "mm", "values": ["2440"] }
-    ],
-    "finishes": [],
-    "options": [],
-    "intro": {
-      "fr": "Une plinthe en paulownia massif, large et épaisse, conçue pour recouvrir les anciennes plinthes ou combler des jours importants en pied de mur, sans dépose.",
-      "en": "A wide, thick solid paulownia skirting board designed to cover old skirting or bridge large gaps at the foot of the wall, without removal."
-    },
-    "body": {
-      "fr": [
-        "Section 20 × 110 mm : la plinthe vient se poser par-dessus l'existante et masque les défauts en pied de mur. Un gain de temps important en rénovation.",
-        "Longueur 2440 mm, finition Gesso + satinée appliquée en usine.",
-        "Prête à poser, collée ou clouée, sans peinture."
-      ],
-      "en": [
-        "20 × 110 mm section: the skirting fits over the existing one and hides defects at the foot of the wall. A major time saver in renovation.",
-        "2440 mm lengths, factory-applied Gesso + satin finish.",
-        "Ready to install, glued or nailed, no painting."
-      ]
-    },
-    "uses": {
-      "fr": ["Rénovation sans dépose", "Recouvrement d'anciennes plinthes", "Logements", "Locaux tertiaires"],
-      "en": ["Renovation without removal", "Covering old skirting", "Housing", "Commercial premises"]
+      "fr": ["Logements neufs", "Rénovation avec ou sans dépose", "Bureaux et locaux tertiaires", "Hôtellerie"],
+      "en": ["New housing", "Renovation with or without removal", "Offices and commercial premises", "Hospitality"]
     }
   }
 ]

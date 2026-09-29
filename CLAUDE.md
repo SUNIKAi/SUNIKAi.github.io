@@ -45,13 +45,16 @@ node tools/make-catalogue.js     # catalogues PDF FR + EN (via Chrome headless)
   une fonction par type de page.
 - `content/site.json` — libellés d'interface FR/EN, contacts, `formEndpoint`
   (URL du formulaire, prestataire au choix).
-- `content/products.json` — 15 produits (catalogue refondu le 2026-09-11 depuis
+- `content/products.json` — 13 produits (catalogue refondu le 2026-09-11 depuis
   `Desktop/BUSINESS` : fiches techniques 2026, fiche vendeur France, liste de prix
   bambou). Modèle : `material`, `features[]` (points clés), `sizes[]` (`label`,
   `unit`, `values[]` en chaînes ou `{fr,en}`, `note`), `finishes[]`
   (`{fr,en,swatch}`), `options[]`, `intro`, `body`, `uses`. Rendu en pastilles
   par `optionsBlock()` et `sizesSummary()` dans build.js. Le user veut des
   **tailles en options** (pas un format unique figé).
+  Optionnel : `variants[]` (`id`, `name`, `image`, `sizes[]`, `text`) pour une
+  gamme vendue sous une seule référence — rendu par `variantsSection()` en
+  cartes photo + sections. Seules les plinthes l'utilisent aujourd'hui.
 - `content/pages.json` — services, arguments « pourquoi nous », à propos, chiffres.
 - `content/news.json` — articles ; `body` accepte du HTML simple.
 - `assets/css/style.css` — feuille unique, tokens CSS en `:root`.
@@ -138,6 +141,14 @@ Google Fonts.
 
 ## Historique
 
+- **2026-09-29 — ton éditorial + fusion des plinthes.** Tous les textes passés
+  en registre professionnel (accroche d'accueil « Votre partenaire
+  d'approvisionnement en bois d'Asie », pages services / à propos / « pourquoi »).
+  Les 3 plinthes deviennent **un seul produit** `plinthe` (`/produits/plinthes/`,
+  `/en/products/skirting-boards/`) avec photo d'ensemble `plinthe.jpg` et un bloc
+  « Les trois profils » (réversible / mouluré / recouvrant) portant la photo et
+  les sections de chacun. Les 6 anciennes URL produit sont conservées en pages de
+  redirection (`REDIRECTS` dans build.js, `noindex` + canonical, hors sitemap).
 - **2026-09-11 — refonte du catalogue.** 15 produits, formats en pastilles,
   bambou vertical en 2 produits (naturel / caramel), parquets hévéa fusionnés,
   parquets bambou fusionnés, terrasse réversible + GRAD fusionnées, 3 plinthes.

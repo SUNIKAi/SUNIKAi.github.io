@@ -94,7 +94,9 @@
         "finishes": "Finitions",
         "options": "Options",
         "material": "Matière",
-        "features": "Points clés"
+        "features": "Points clés",
+        "variants": "Les trois profils",
+        "variantsLead": "Même essence, même finition : seul le profil change. Sections indiquées en millimètres."
       },
       "services": {
         "title": "Nos services",
@@ -207,7 +209,9 @@
         "finishes": "Finishes",
         "options": "Options",
         "material": "Material",
-        "features": "Key features"
+        "features": "Key features",
+        "variants": "The three profiles",
+        "variantsLead": "Same species, same finish: only the profile differs. Sections shown in millimetres."
       },
       "services": {
         "title": "Our services",

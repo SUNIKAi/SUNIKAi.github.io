@@ -84,6 +84,43 @@ function sizesSummary(p, lang) {
   return `<strong>${esc(L(g.label, lang))}${g.unit ? ' (' + esc(g.unit) + ')' : ''}</strong> ${esc(joinValues(g.values, lang))}`;
 }
 
+/**
+ * Section « les profils » : une carte par variante (photo, sections, texte).
+ * Ne s'affiche que pour les produits qui declarent un tableau `variants`.
+ */
+function variantsSection(p, lang, t) {
+  if (!(p.variants || []).length) return '';
+  const cards = p.variants
+    .map(
+      (v) => `
+      <article class="variant">
+        <div class="variant-visual">
+          ${img(v.image, L(v.name, lang), { sizes: '(max-width: 860px) 100vw, 370px' })}
+        </div>
+        <div class="variant-body">
+          <h3>${esc(L(v.name, lang))}</h3>
+          <ul class="pills">${(v.sizes || [])
+            .map((s) => `<li class="pill">${esc(L(s, lang))}</li>`)
+            .join('')}</ul>
+          <p>${esc(L(v.text, lang))}</p>
+        </div>
+      </article>`
+    )
+    .join('');
+  return `
+<section class="section section-sand">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>${esc(t.products.variants)}</h2>
+      <p>${esc(t.products.variantsLead)}</p>
+    </div>
+    <div class="variant-grid">${cards}
+    </div>
+  </div>
+</section>
+`;
+}
+
 /** Bloc « formats / finitions / options » en pastilles, sur la fiche produit. */
 function optionsBlock(p, lang, t) {
   const rows = [];
@@ -532,7 +569,7 @@ function productPage(p, lang) {
     </div>
   </div>
 </section>
-
+${variantsSection(p, lang, t)}
 <section class="section">
   <div class="wrap product-detail">
     <div class="prose">
@@ -1027,6 +1064,43 @@ function clean() {
   }
 }
 
+/**
+ * Anciennes URL supprimees (produits fusionnes) -> page de remplacement.
+ * Page de redirection simple : elle n'entre ni dans `built` ni dans le sitemap,
+ * et porte un <link rel="canonical"> vers la cible pour Google.
+ */
+const REDIRECTS = {
+  'produits/plinthe-reversible': '/produits/plinthes/',
+  'produits/plinthe-mouluree': '/produits/plinthes/',
+  'produits/plinthe-recouvrante': '/produits/plinthes/',
+  'en/products/reversible-skirting-board': '/en/products/skirting-boards/',
+  'en/products/moulded-skirting-board': '/en/products/skirting-boards/',
+  'en/products/overlap-skirting-board': '/en/products/skirting-boards/',
+};
+
+function writeRedirects() {
+  for (const [from, to] of Object.entries(REDIRECTS)) {
+    const dir = path.join(ROOT, from);
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(
+      path.join(dir, 'index.html'),
+      `<!doctype html>
+<html lang="${from.startsWith('en/') ? 'en' : 'fr'}">
+<head>
+<meta charset="utf-8">
+<title>Sunikai</title>
+<link rel="canonical" href="${DOMAIN}${to}">
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="refresh" content="0; url=${to}">
+</head>
+<body><p><a href="${to}">${DOMAIN}${to}</a></p></body>
+</html>
+`,
+      'utf8'
+    );
+  }
+}
+
 function run() {
   clean();
 
@@ -1041,6 +1115,8 @@ function run() {
     for (const p of products) write(productUrl(p, lang), productPage(p, lang));
     for (const n of news) write(newsUrl(n, lang), newsPage(n, lang));
   }
+
+  writeRedirects();
 
   fs.writeFileSync(path.join(ROOT, '404.html'), notFoundPage(), 'utf8');
   fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sitemapXml(), 'utf8');
